@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bd.cs" />
+    <Compile Include="lista_opciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lista_opciones.Designer.cs">
+      <DependentUpon>lista_opciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="lista_opciones.resx">
+      <DependentUpon>lista_opciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>

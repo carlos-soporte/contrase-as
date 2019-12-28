@@ -10,7 +10,7 @@ namespace banco_contraseñas
 {
     class bd
     {
-        public DataSet consultar(string query)
+        public static DataSet consultar(string query)
         {
             SqlConnection connection = new SqlConnection("server=CARLITOS-PC; database=banco_contraseña ; integrated security = true");
             connection.Open();

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace banco_contraseñas
 {
     public partial class login : Form
@@ -25,7 +26,26 @@ namespace banco_contraseñas
 
         private void Btn_entrar_Click(object sender, EventArgs e)
         {
-            
+            try
+            {
+                string query = "exec consultar_usuario '" + txt_usuario.Text.Trim() + "','" + txt_contraseña.Text.Trim() + "'";
+                DataSet ds = bd.consultar(query);
+
+                string usuario = ds.Tables[0].Rows[0]["usuario"].ToString().Trim();
+                string contraseña = ds.Tables[0].Rows[0]["contraseña"].ToString().Trim();
+
+                if(txt_usuario.Text.Trim()==usuario  && txt_contraseña.Text.Trim() == contraseña)
+                {
+                    MessageBox.Show("datos correctos");
+                    this.Hide();
+                    new lista_opciones().Show();
+                }
+                
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("error en los datos ingresados");
+            }
         }
     }
 }

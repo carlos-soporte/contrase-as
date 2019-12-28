@@ -1,3 +1,5 @@
+USE MASTER
+DROP DATABASE banco_contraseña
 --se crea la base de datos
 CREATE DATABASE banco_contraseña;
 GO
@@ -72,4 +74,3 @@ CREATE PROCEDURE consultar_usuario
 AS
 SELECT usuario,contraseña from habilitados where usuario=@usuario and contraseña=@contraseña
 GO
-
