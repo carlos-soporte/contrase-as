@@ -50,6 +50,7 @@
             this.btn_entrar.TabIndex = 0;
             this.btn_entrar.Text = "ENTRAR";
             this.btn_entrar.UseVisualStyleBackColor = true;
+            this.btn_entrar.Click += new System.EventHandler(this.Btn_entrar_Click);
             // 
             // btn_limpiar
             // 

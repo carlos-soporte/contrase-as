@@ -22,5 +22,10 @@ namespace banco_contraseñas
             txt_usuario.Text = "";
             txt_contraseña.Text = "";
         }
+
+        private void Btn_entrar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

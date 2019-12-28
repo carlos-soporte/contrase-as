@@ -65,4 +65,11 @@ EXEC insertar_banco 'natillera','natillera del abuelito','te_queremos','chao1r67
 EXEC insertar_banco 'buñuelera','negocio redondo','chaopapá','chao6876' 
 EXEC insertar_banco 'suggarMom','regalo del 31','te_robamos','chao32145' 
 
---NOTA: se procede a crear los procedimientos almacenados para borrar, actualizar 
+--procedimiento para validar el usuario habilitado para ingresar al sistema
+CREATE PROCEDURE consultar_usuario
+@usuario VARCHAR(20),
+@contraseña VARCHAR(15)
+AS
+SELECT usuario,contraseña from habilitados where usuario=@usuario and contraseña=@contraseña
+GO
+
