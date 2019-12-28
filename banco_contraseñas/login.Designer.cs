@@ -67,6 +67,7 @@
             // 
             this.btnlogoepsi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlogoepsi.BackgroundImage")));
             this.btnlogoepsi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnlogoepsi.Enabled = false;
             this.btnlogoepsi.Location = new System.Drawing.Point(89, 87);
             this.btnlogoepsi.Margin = new System.Windows.Forms.Padding(2);
             this.btnlogoepsi.Name = "btnlogoepsi";
@@ -142,6 +143,7 @@
             this.Controls.Add(this.btn_entrar);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "login";
