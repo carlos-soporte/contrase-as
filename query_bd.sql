@@ -66,11 +66,11 @@ EXEC insertar_banco 'bancolombia','procesamiento de documentos','te_pegamos','ch
 EXEC insertar_banco 'natillera','natillera del abuelito','te_queremos','chao1r676' 
 EXEC insertar_banco 'buñuelera','negocio redondo','chaopapá','chao6876' 
 EXEC insertar_banco 'suggarMom','regalo del 31','te_robamos','chao32145' 
-
+GO
 --procedimiento para validar el usuario habilitado para ingresar al sistema
 CREATE PROCEDURE consultar_usuario
 @usuario VARCHAR(20),
 @contraseña VARCHAR(15)
 AS
 SELECT usuario,contraseña from habilitados where usuario=@usuario and contraseña=@contraseña
-GO
+
