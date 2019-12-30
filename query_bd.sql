@@ -73,14 +73,14 @@ CREATE PROCEDURE consultar_usuario
 @contraseña VARCHAR(15)
 AS
 SELECT usuario,contraseña from habilitados where usuario=@usuario and contraseña=@contraseña
+GO
 
-insert into habilitados(usuario,contraseña) values ('alejandra','12345')
 
 --procedimiento para listar los campos a trabjajar
 CREATE PROCEDURE listar_banco
 AS
 SELECT * FROM banco
-
+GO
 --procedimiento almacenado para filtrar por entidad
 CREATE PROCEDURE filtrar_banco
 @entidad VARCHAR(25)

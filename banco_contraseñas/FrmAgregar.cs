@@ -43,9 +43,9 @@ namespace banco_contraseñas
             try
             {
                 String query ="EXEC insertar_banco '"+txtEntidad.Text.Trim()+"','"+txtDescripcion.Text.Trim()+"','"+ txtUsuario.Text.Trim() + "','" + txtClave.Text.Trim() + "'"; 
-                //query += txtUsuario.Text.Trim() + "','" + txtClave.Text.Trim() + "'";
+                
                 bd.consultar(query);
-
+                MessageBox.Show("datos ingresados correctamente");
             }
             catch (Exception)
             {
