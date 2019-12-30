@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAgregar));
             this.btnlogoepsi = new System.Windows.Forms.Button();
             this.btn_guardar = new System.Windows.Forms.Button();
@@ -41,9 +40,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.label4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnlogoepsi
@@ -116,28 +113,28 @@
             // 
             this.txtUsuario.Location = new System.Drawing.Point(121, 113);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(189, 22);
+            this.txtUsuario.Size = new System.Drawing.Size(189, 19);
             this.txtUsuario.TabIndex = 22;
             // 
             // txtClave
             // 
             this.txtClave.Location = new System.Drawing.Point(121, 151);
             this.txtClave.Name = "txtClave";
-            this.txtClave.Size = new System.Drawing.Size(189, 22);
+            this.txtClave.Size = new System.Drawing.Size(189, 19);
             this.txtClave.TabIndex = 23;
             // 
             // txtDescripcion
             // 
             this.txtDescripcion.Location = new System.Drawing.Point(121, 76);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(189, 22);
+            this.txtDescripcion.Size = new System.Drawing.Size(189, 19);
             this.txtDescripcion.TabIndex = 24;
             // 
             // txtEntidad
             // 
             this.txtEntidad.Location = new System.Drawing.Point(121, 38);
             this.txtEntidad.Name = "txtEntidad";
-            this.txtEntidad.Size = new System.Drawing.Size(189, 22);
+            this.txtEntidad.Size = new System.Drawing.Size(189, 19);
             this.txtEntidad.TabIndex = 25;
             // 
             // label1
@@ -145,7 +142,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 16);
+            this.label1.Size = new System.Drawing.Size(78, 14);
             this.label1.TabIndex = 26;
             this.label1.Text = "DESCRIPCION";
             // 
@@ -154,7 +151,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 119);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 16);
+            this.label2.Size = new System.Drawing.Size(54, 14);
             this.label2.TabIndex = 27;
             this.label2.Text = "USUARIO";
             // 
@@ -163,26 +160,22 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 38);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 16);
+            this.label3.Size = new System.Drawing.Size(52, 14);
             this.label3.TabIndex = 28;
             this.label3.Text = "ENTIDAD";
-            // 
-            // errorProvider1
-            // 
-            this.errorProvider1.ContainerControl = this;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 157);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 16);
+            this.label4.Size = new System.Drawing.Size(43, 14);
             this.label4.TabIndex = 29;
             this.label4.Text = "CLAVE";
             // 
             // FrmAgregar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(594, 338);
             this.Controls.Add(this.label4);
@@ -202,7 +195,6 @@
             this.Name = "FrmAgregar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmAgregar";
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,7 +213,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Label label4;
     }
 }
