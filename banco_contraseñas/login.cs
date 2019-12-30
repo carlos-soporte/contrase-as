@@ -36,19 +36,19 @@ namespace banco_contraseñas
 
                 if(txt_usuario.Text.Trim()==usuario  && txt_contraseña.Text.Trim() == contraseña)
                 {
-                    MessageBox.Show("¡datos correctos, bienvenid@!");
+                    MessageBox.Show("¡Datos correctos, bienvenid@!");
                     this.Hide();
                     new lista_opciones().Show();
                 }
                 else
                 {
-                    MessageBox.Show("usuario y/o contraseña incorrectos");
+                    MessageBox.Show("Usuario y/o contraseña incorrectos");
                 }
                 
             }
             catch (Exception)
             {
-                MessageBox.Show("error en los datos ingresados");
+                MessageBox.Show("Error al conectarse con la base de datos");
             }
         }
     }

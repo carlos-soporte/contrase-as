@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace banco_contraseñas
 {
-    public partial class lista_opciones : Form
+    public partial class FrmConsultar : Form
     {
-        public lista_opciones()
+        public FrmConsultar()
         {
             InitializeComponent();
-        }
-
-        private void Btn_consultar_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

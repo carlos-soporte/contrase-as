@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bd.cs" />
+    <Compile Include="FrmConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultar.Designer.cs">
+      <DependentUpon>FrmConsultar.cs</DependentUpon>
+    </Compile>
     <Compile Include="lista_opciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmConsultar.resx">
+      <DependentUpon>FrmConsultar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="lista_opciones.resx">
       <DependentUpon>lista_opciones.cs</DependentUpon>
     </EmbeddedResource>

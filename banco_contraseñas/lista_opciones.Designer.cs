@@ -30,13 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(lista_opciones));
             this.btnlogoepsi = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btn_entrar = new System.Windows.Forms.Button();
+            this.btn_consultar = new System.Windows.Forms.Button();
+            this.btn_actualizar = new System.Windows.Forms.Button();
+            this.btn_agregar = new System.Windows.Forms.Button();
+            this.btn_eliminar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnlogoepsi
@@ -51,97 +50,87 @@
             this.btnlogoepsi.TabIndex = 11;
             this.btnlogoepsi.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // btn_consultar
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(178, 135);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 24);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "MENÚ ";
+            this.btn_consultar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_consultar.Location = new System.Drawing.Point(204, 206);
+            this.btn_consultar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_consultar.Name = "btn_consultar";
+            this.btn_consultar.Size = new System.Drawing.Size(146, 35);
+            this.btn_consultar.TabIndex = 19;
+            this.btn_consultar.Text = "CONSULTAR";
+            this.btn_consultar.UseVisualStyleBackColor = true;
+            this.btn_consultar.Click += new System.EventHandler(this.Btn_consultar_Click);
             // 
-            // label1
+            // btn_actualizar
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(250, 135);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 24);
-            this.label1.TabIndex = 18;
-            this.label1.Text = "PRINCIPAL";
+            this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_actualizar.Location = new System.Drawing.Point(204, 249);
+            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.Size = new System.Drawing.Size(146, 35);
+            this.btn_actualizar.TabIndex = 20;
+            this.btn_actualizar.Text = "ACTUALIZAR";
+            this.btn_actualizar.UseVisualStyleBackColor = true;
             // 
-            // btn_entrar
+            // btn_agregar
             // 
-            this.btn_entrar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_entrar.Location = new System.Drawing.Point(195, 182);
-            this.btn_entrar.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_entrar.Name = "btn_entrar";
-            this.btn_entrar.Size = new System.Drawing.Size(146, 35);
-            this.btn_entrar.TabIndex = 19;
-            this.btn_entrar.Text = "CONSULTAR";
-            this.btn_entrar.UseVisualStyleBackColor = true;
+            this.btn_agregar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_agregar.Location = new System.Drawing.Point(204, 292);
+            this.btn_agregar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_agregar.Name = "btn_agregar";
+            this.btn_agregar.Size = new System.Drawing.Size(146, 35);
+            this.btn_agregar.TabIndex = 21;
+            this.btn_agregar.Text = "AGREGAR";
+            this.btn_agregar.UseVisualStyleBackColor = true;
+            // 
+            // btn_eliminar
+            // 
+            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_eliminar.Location = new System.Drawing.Point(204, 335);
+            this.btn_eliminar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(146, 35);
+            this.btn_eliminar.TabIndex = 22;
+            this.btn_eliminar.Text = "ELIMINAR";
+            this.btn_eliminar.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Location = new System.Drawing.Point(195, 225);
+            this.button1.BackColor = System.Drawing.Color.LightBlue;
+            this.button1.Enabled = false;
+            this.button1.Location = new System.Drawing.Point(11, 23);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 35);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "ACTUALIZAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Size = new System.Drawing.Size(348, 72);
+            this.button1.TabIndex = 23;
+            this.button1.Text = "BANCO DE CONTRASEÑAS EPSI ";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button2.Location = new System.Drawing.Point(195, 268);
+            this.button2.BackColor = System.Drawing.Color.LightBlue;
+            this.button2.Enabled = false;
+            this.button2.Location = new System.Drawing.Point(103, 139);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(146, 35);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "AGREGAR";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button3.Location = new System.Drawing.Point(195, 311);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(146, 35);
-            this.button3.TabIndex = 22;
-            this.button3.Text = "ELIMINAR";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
-                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(13, 47);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(328, 24);
-            this.label3.TabIndex = 23;
-            this.label3.Text = "BANCO DE CONTRASEÑAS EPSI";
+            this.button2.Size = new System.Drawing.Size(348, 59);
+            this.button2.TabIndex = 24;
+            this.button2.Text = "MENÚ PRINCIPAL";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // lista_opciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightBlue;
-            this.ClientSize = new System.Drawing.Size(560, 371);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.button3);
+            this.BackColor = System.Drawing.Color.Blue;
+            this.ClientSize = new System.Drawing.Size(560, 399);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.btn_entrar);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btn_eliminar);
+            this.Controls.Add(this.btn_agregar);
+            this.Controls.Add(this.btn_actualizar);
+            this.Controls.Add(this.btn_consultar);
             this.Controls.Add(this.btnlogoepsi);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Black;
@@ -153,19 +142,17 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Expertos Profesionales en Servicios Sociales Integrales";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btnlogoepsi;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btn_entrar;
+        private System.Windows.Forms.Button btn_consultar;
+        private System.Windows.Forms.Button btn_actualizar;
+        private System.Windows.Forms.Button btn_agregar;
+        private System.Windows.Forms.Button btn_eliminar;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label3;
     }
 }
