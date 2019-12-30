@@ -35,7 +35,7 @@
             this.btn_menu = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.txt_usuario = new System.Windows.Forms.TextBox();
+            this.txt_filtrar = new System.Windows.Forms.TextBox();
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -46,7 +46,7 @@
             this.btnlogoepsi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlogoepsi.BackgroundImage")));
             this.btnlogoepsi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnlogoepsi.Enabled = false;
-            this.btnlogoepsi.Location = new System.Drawing.Point(392, -2);
+            this.btnlogoepsi.Location = new System.Drawing.Point(849, -2);
             this.btnlogoepsi.Margin = new System.Windows.Forms.Padding(2);
             this.btnlogoepsi.Name = "btnlogoepsi";
             this.btnlogoepsi.Size = new System.Drawing.Size(196, 123);
@@ -57,7 +57,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.LightBlue;
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(13, 49);
+            this.button1.Location = new System.Drawing.Point(317, 49);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(348, 72);
@@ -69,7 +69,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.LightBlue;
             this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(156, 149);
+            this.button2.Location = new System.Drawing.Point(132, 149);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(238, 52);
@@ -94,11 +94,15 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(13, 276);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(562, 284);
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(1258, 284);
             this.dataGridView1.TabIndex = 27;
             // 
             // label1
@@ -110,12 +114,12 @@
             this.label1.TabIndex = 28;
             this.label1.Text = "Entidad:";
             // 
-            // txt_usuario
+            // txt_filtrar
             // 
-            this.txt_usuario.Location = new System.Drawing.Point(125, 222);
-            this.txt_usuario.Name = "txt_usuario";
-            this.txt_usuario.Size = new System.Drawing.Size(245, 29);
-            this.txt_usuario.TabIndex = 29;
+            this.txt_filtrar.Location = new System.Drawing.Point(125, 222);
+            this.txt_filtrar.Name = "txt_filtrar";
+            this.txt_filtrar.Size = new System.Drawing.Size(245, 29);
+            this.txt_filtrar.TabIndex = 29;
             // 
             // btn_buscar
             // 
@@ -127,27 +131,29 @@
             this.btn_buscar.TabIndex = 30;
             this.btn_buscar.Text = "BUSCAR";
             this.btn_buscar.UseVisualStyleBackColor = true;
+            this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
             // 
             // btn_actualizar
             // 
             this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_actualizar.Location = new System.Drawing.Point(215, 578);
+            this.btn_actualizar.Location = new System.Drawing.Point(553, 589);
             this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_actualizar.Name = "btn_actualizar";
             this.btn_actualizar.Size = new System.Drawing.Size(146, 35);
             this.btn_actualizar.TabIndex = 31;
             this.btn_actualizar.Text = "REFRESCAR";
             this.btn_actualizar.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
             // 
             // FrmConsultar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(587, 637);
+            this.ClientSize = new System.Drawing.Size(1283, 637);
             this.Controls.Add(this.btn_actualizar);
             this.Controls.Add(this.btn_buscar);
-            this.Controls.Add(this.txt_usuario);
+            this.Controls.Add(this.txt_filtrar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_menu);
@@ -162,6 +168,7 @@
             this.Name = "FrmConsultar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Expertos Profesionales en Servicios Sociales Integrales";
+            this.Load += new System.EventHandler(this.FrmConsultar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -174,10 +181,10 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btn_menu;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txt_usuario;
+        private System.Windows.Forms.TextBox txt_filtrar;
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Button btn_actualizar;
+        public System.Windows.Forms.DataGridView dataGridView1;
     }
 }

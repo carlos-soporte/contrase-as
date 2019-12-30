@@ -17,16 +17,53 @@ namespace banco_contraseñas
             InitializeComponent();
         }
 
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            new lista_opciones().Show();
-        }
+        
 
         private void Btn_menu_Click(object sender, EventArgs e)
         {
             this.Hide();
             new lista_opciones().Show();
+        }
+
+        private void FrmConsultar_Load(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = llenarGv().Tables[0];
+        }
+
+        public DataSet llenarGv()
+        {
+            DataSet ds;
+
+            string query = "EXEC listar_banco";
+            ds = bd.consultar(query);
+
+            return ds;
+        }
+
+        private void btn_buscar_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txt_filtrar.Text.Trim() ) == false)
+            {
+                try
+                {
+                    DataSet ds;
+
+                    string query = "EXEC filtrar_banco '" + txt_filtrar.Text + "'";
+                    ds = bd.consultar(query);
+                    dataGridView1.DataSource = ds.Tables[0];
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show("Ha ocurrido un error " + ex.Message);
+                }
+            }
+        }
+
+        private void btn_actualizar_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = llenarGv().Tables[0];
+
         }
     }
 }
