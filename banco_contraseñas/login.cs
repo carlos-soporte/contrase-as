@@ -36,9 +36,13 @@ namespace banco_contraseñas
 
                 if(txt_usuario.Text.Trim()==usuario  && txt_contraseña.Text.Trim() == contraseña)
                 {
-                    MessageBox.Show("datos correctos");
+                    MessageBox.Show("¡datos correctos, bienvenid@!");
                     this.Hide();
                     new lista_opciones().Show();
+                }
+                else
+                {
+                    MessageBox.Show("usuario y/o contraseña incorrectos");
                 }
                 
             }
