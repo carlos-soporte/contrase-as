@@ -29,26 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(lista_opciones));
-            this.btnlogoepsi = new System.Windows.Forms.Button();
             this.btn_consultar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_agregar = new System.Windows.Forms.Button();
             this.btn_eliminar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnlogoepsi = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btnlogoepsi
-            // 
-            this.btnlogoepsi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlogoepsi.BackgroundImage")));
-            this.btnlogoepsi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnlogoepsi.Enabled = false;
-            this.btnlogoepsi.Location = new System.Drawing.Point(365, -2);
-            this.btnlogoepsi.Margin = new System.Windows.Forms.Padding(2);
-            this.btnlogoepsi.Name = "btnlogoepsi";
-            this.btnlogoepsi.Size = new System.Drawing.Size(196, 123);
-            this.btnlogoepsi.TabIndex = 11;
-            this.btnlogoepsi.UseVisualStyleBackColor = true;
             // 
             // btn_consultar
             // 
@@ -83,6 +71,7 @@
             this.btn_agregar.TabIndex = 21;
             this.btn_agregar.Text = "AGREGAR";
             this.btn_agregar.UseVisualStyleBackColor = true;
+            this.btn_agregar.Click += new System.EventHandler(this.btn_agregar_Click);
             // 
             // btn_eliminar
             // 
@@ -119,9 +108,21 @@
             this.button2.Text = "MENÚ PRINCIPAL";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // btnlogoepsi
+            // 
+            this.btnlogoepsi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlogoepsi.BackgroundImage")));
+            this.btnlogoepsi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnlogoepsi.Enabled = false;
+            this.btnlogoepsi.Location = new System.Drawing.Point(365, -2);
+            this.btnlogoepsi.Margin = new System.Windows.Forms.Padding(2);
+            this.btnlogoepsi.Name = "btnlogoepsi";
+            this.btnlogoepsi.Size = new System.Drawing.Size(196, 123);
+            this.btnlogoepsi.TabIndex = 11;
+            this.btnlogoepsi.UseVisualStyleBackColor = true;
+            // 
             // lista_opciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(560, 399);

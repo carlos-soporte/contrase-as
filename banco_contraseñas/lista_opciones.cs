@@ -22,5 +22,11 @@ namespace banco_contraseñas
             this.Hide();
             new FrmConsultar().Show();
         }
+
+        private void btn_agregar_Click(object sender, EventArgs e)
+        {
+            new FrmAgregar().Show();
+            this.Hide();
+        }
     }
 }
