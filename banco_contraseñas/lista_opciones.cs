@@ -19,7 +19,8 @@ namespace banco_contraseñas
 
         private void Btn_consultar_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            new FrmConsultar().Show();
         }
     }
 }

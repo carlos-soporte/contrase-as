@@ -26,6 +26,11 @@ namespace banco_contraseñas
 
         private void Btn_entrar_Click(object sender, EventArgs e)
         {
+            if (txt_usuario.Text.Trim() == "" || txt_contraseña.Text.Trim() == "")
+            {
+                MessageBox.Show("faltan datos por ingresar");
+                return;
+            }
             try
             {
                 string query = "exec consultar_usuario '" + txt_usuario.Text.Trim() + "','" + txt_contraseña.Text.Trim() + "'";
@@ -40,15 +45,11 @@ namespace banco_contraseñas
                     this.Hide();
                     new lista_opciones().Show();
                 }
-                else
-                {
-                    MessageBox.Show("Usuario y/o contraseña incorrectos");
-                }
-                
+
             }
             catch (Exception)
             {
-                MessageBox.Show("Error al conectarse con la base de datos");
+                MessageBox.Show("Usuario y/o contraseña erróneos, intentelo de nuevo");
             }
         }
     }

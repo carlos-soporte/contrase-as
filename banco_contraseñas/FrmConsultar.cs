@@ -16,5 +16,17 @@ namespace banco_contraseñas
         {
             InitializeComponent();
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new lista_opciones().Show();
+        }
+
+        private void Btn_menu_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new lista_opciones().Show();
+        }
     }
 }
