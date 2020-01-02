@@ -60,12 +60,22 @@ AS
 INSERT INTO banco(entidad,descripcion,usuario,contraseña) VALUES (@entidad,@descripcion,@usuario,@contraseña)
 GO
 
---se hacen 5 registros con fines practicos.
-EXEC insertar_banco 'bancolombia','retiro de dinero','te_robamos','chao1234' 
+--se hacen 15 registros con fines practicos.
+EXEC insertar_banco 'bancolombia','retiro de dinero','te_amamos','chao1234' 
 EXEC insertar_banco 'bancolombia','procesamiento de documentos','te_pegamos','chao4321' 
 EXEC insertar_banco 'natillera','natillera del abuelito','te_queremos','chao1r676' 
 EXEC insertar_banco 'buñuelera','negocio redondo','chaopapá','chao6876' 
-EXEC insertar_banco 'suggarMom','regalo del 31','te_robamos','chao32145' 
+EXEC insertar_banco 'suggarMom','regalo del 31','te_extrañamos','chao32145' 
+EXEC insertar_banco 'suggarDaddy','regalo del 31','cr7','chao32145' 
+EXEC insertar_banco 'Pascual bravo','acceso a la plataforma interactiva','pepe_grillo','chao32145' 
+EXEC insertar_banco 'zandaly','chicas malas','pepe_grillo','chao32145' 
+EXEC insertar_banco 'casa de messi','hack de la casa inteligente de messi','pepe_grillo','chao32145' 
+EXEC insertar_banco 'cr7 tu papá','verdades que duelen','pepe_grillo','chao32145' 
+EXEC insertar_banco 'fea del barrio','si no hay solomo, de todo como','pepe_grillo','chao32145' 
+EXEC insertar_banco 'culito nuevo','te la creiste, solo seriedad','pepe_grillo','chao32145' 
+EXEC insertar_banco 'vecina amable','digale que apague el equipo','pepe_grillo','chao32145' 
+EXEC insertar_banco 'inventenflix','habia que colocar algo','pepe_grillo','chao32145' 
+EXEC insertar_banco 'tunel del gato','si no sabe de tuneles, no opine','pepe_grillo','chao32145' 
 GO
 --procedimiento para validar el usuario habilitado para ingresar al sistema
 CREATE PROCEDURE consultar_usuario
@@ -86,4 +96,3 @@ CREATE PROCEDURE filtrar_banco
 @entidad VARCHAR(25)
 AS
 SELECT * FROM banco WHERE entidad LIKE  '%'+ @entidad +'%'
-
