@@ -63,6 +63,7 @@ namespace banco_contraseñas
         private void btn_actualizar_Click(object sender, EventArgs e)
         {
             dataGridView1.DataSource = llenarGv().Tables[0];
+            txt_filtrar.Text = "";
 
         }
     }
