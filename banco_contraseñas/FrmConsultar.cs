@@ -66,5 +66,11 @@ namespace banco_contraseñas
             txt_filtrar.Text = "";
 
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ud ha salido de la aplicacion");
+            Application.Exit();
+        }
     }
 }
