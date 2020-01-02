@@ -40,6 +40,7 @@ ALTER TABLE banco
 ADD PRIMARY KEY(id_registro)
 GO
 
+-------------------------------------------------PROCEDIMIENTOS ALMACENADOS--------------------------------------------------------
 --se crea un procedimiento almacenado para insertar usuarios habilitados
 CREATE PROCEDURE insertar_habilitado
 @usuario VARCHAR(25),
