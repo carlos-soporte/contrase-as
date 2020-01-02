@@ -81,7 +81,7 @@
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::banco_contraseñas.Properties.Resources.Logo_png_01;
-            this.pictureBox1.Location = new System.Drawing.Point(186, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(182, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(121, 172);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
