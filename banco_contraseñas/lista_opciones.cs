@@ -28,5 +28,17 @@ namespace banco_contraseñas
             new FrmAgregar().Show();
             this.Hide();
         }
+
+        private void btn_actualizar_Click(object sender, EventArgs e)
+        {
+            new FrmActualizar().Show();
+            this.Hide();
+        }
+
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+            new FrmEliminar().Show();
+            this.Hide();
+        }
     }
 }

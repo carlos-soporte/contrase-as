@@ -60,6 +60,7 @@
             this.btn_actualizar.TabIndex = 20;
             this.btn_actualizar.Text = "ACTUALIZAR";
             this.btn_actualizar.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
             // 
             // btn_agregar
             // 
@@ -83,6 +84,7 @@
             this.btn_eliminar.TabIndex = 22;
             this.btn_eliminar.Text = "ELIMINAR";
             this.btn_eliminar.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
             // 
             // button1
             // 
