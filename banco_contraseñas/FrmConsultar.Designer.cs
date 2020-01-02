@@ -115,6 +115,7 @@
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(991, 315);
             this.dataGridView1.TabIndex = 27;
@@ -124,7 +125,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(32, 222);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 24);
+            this.label1.Size = new System.Drawing.Size(109, 29);
             this.label1.TabIndex = 28;
             this.label1.Text = "Entidad:";
             // 
@@ -132,7 +133,7 @@
             // 
             this.txt_filtrar.Location = new System.Drawing.Point(125, 222);
             this.txt_filtrar.Name = "txt_filtrar";
-            this.txt_filtrar.Size = new System.Drawing.Size(245, 29);
+            this.txt_filtrar.Size = new System.Drawing.Size(245, 34);
             this.txt_filtrar.TabIndex = 29;
             // 
             // btn_buscar
@@ -174,7 +175,7 @@
             // 
             // FrmConsultar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(1016, 637);
