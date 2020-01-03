@@ -21,5 +21,39 @@ namespace banco_contraseñas
         {
 
         }
+
+       
+
+        private void RBUsuario_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RBUsuario.Checked == true) 
+            {
+                txtContraseña.Enabled = false;
+                txtUsuario.Enabled = true;
+            }
+        }
+
+        private void RBContraseña_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RBContraseña.Checked == true)
+            {
+                txtUsuario.Enabled = false;
+                txtContraseña.Enabled = true;
+            }
+        }
+
+        private void RBAmbos_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RBAmbos.Checked == true)
+            {
+                txtUsuario.Enabled = true;
+                txtContraseña.Enabled = true;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

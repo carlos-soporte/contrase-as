@@ -29,83 +29,55 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ComplementoActualizar));
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnConfirmar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnlogoepsi = new System.Windows.Forms.Button();
+            this.RBUsuario = new System.Windows.Forms.RadioButton();
+            this.RBContraseña = new System.Windows.Forms.RadioButton();
+            this.RBAmbos = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
-            // checkBox1
+            // btnConfirmar
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(80, 12);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(160, 37);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "USUARIO";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.btnConfirmar.Location = new System.Drawing.Point(12, 534);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(194, 47);
+            this.btnConfirmar.TabIndex = 3;
+            this.btnConfirmar.Text = "CONFIRMAR";
+            this.btnConfirmar.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // btnSalir
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(290, 12);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(224, 37);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "CONTRASEÑA";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.btnSalir.Location = new System.Drawing.Point(212, 534);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(127, 47);
+            this.btnSalir.TabIndex = 4;
+            this.btnSalir.Text = "SALIR";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.button2_Click);
             // 
-            // checkBox3
+            // txtUsuario
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(573, 12);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(135, 37);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "AMBOS";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.txtUsuario.Location = new System.Drawing.Point(259, 253);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(170, 40);
+            this.txtUsuario.TabIndex = 5;
             // 
-            // button1
+            // txtContraseña
             // 
-            this.button1.Location = new System.Drawing.Point(68, 353);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(194, 47);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "CONFIRMAR";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(290, 353);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 47);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "SALIR";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(259, 99);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 40);
-            this.textBox1.TabIndex = 5;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(259, 160);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(170, 40);
-            this.textBox2.TabIndex = 6;
+            this.txtContraseña.Location = new System.Drawing.Point(259, 337);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(170, 40);
+            this.txtContraseña.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 106);
+            this.label1.Location = new System.Drawing.Point(76, 260);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 33);
             this.label1.TabIndex = 7;
@@ -114,29 +86,77 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 167);
+            this.label2.Location = new System.Drawing.Point(12, 344);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(218, 33);
             this.label2.TabIndex = 8;
             this.label2.Text = "CONTRASEÑA :";
             // 
+            // btnlogoepsi
+            // 
+            this.btnlogoepsi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlogoepsi.BackgroundImage")));
+            this.btnlogoepsi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnlogoepsi.Enabled = false;
+            this.btnlogoepsi.Location = new System.Drawing.Point(701, 12);
+            this.btnlogoepsi.Name = "btnlogoepsi";
+            this.btnlogoepsi.Size = new System.Drawing.Size(307, 351);
+            this.btnlogoepsi.TabIndex = 14;
+            this.btnlogoepsi.UseVisualStyleBackColor = true;
+            // 
+            // RBUsuario
+            // 
+            this.RBUsuario.AutoSize = true;
+            this.RBUsuario.Location = new System.Drawing.Point(68, 29);
+            this.RBUsuario.Name = "RBUsuario";
+            this.RBUsuario.Size = new System.Drawing.Size(159, 37);
+            this.RBUsuario.TabIndex = 15;
+            this.RBUsuario.TabStop = true;
+            this.RBUsuario.Text = "USUARIO";
+            this.RBUsuario.UseVisualStyleBackColor = true;
+            this.RBUsuario.CheckedChanged += new System.EventHandler(this.RBUsuario_CheckedChanged);
+            // 
+            // RBContraseña
+            // 
+            this.RBContraseña.AutoSize = true;
+            this.RBContraseña.Location = new System.Drawing.Point(68, 84);
+            this.RBContraseña.Name = "RBContraseña";
+            this.RBContraseña.Size = new System.Drawing.Size(223, 37);
+            this.RBContraseña.TabIndex = 16;
+            this.RBContraseña.TabStop = true;
+            this.RBContraseña.Text = "CONTRASEÑA";
+            this.RBContraseña.UseVisualStyleBackColor = true;
+            this.RBContraseña.CheckedChanged += new System.EventHandler(this.RBContraseña_CheckedChanged);
+            // 
+            // RBAmbos
+            // 
+            this.RBAmbos.AutoSize = true;
+            this.RBAmbos.Location = new System.Drawing.Point(68, 147);
+            this.RBAmbos.Name = "RBAmbos";
+            this.RBAmbos.Size = new System.Drawing.Size(134, 37);
+            this.RBAmbos.TabIndex = 17;
+            this.RBAmbos.TabStop = true;
+            this.RBAmbos.Text = "AMBOS";
+            this.RBAmbos.UseVisualStyleBackColor = true;
+            this.RBAmbos.CheckedChanged += new System.EventHandler(this.RBAmbos_CheckedChanged);
+            // 
             // ComplementoActualizar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1189, 649);
+            this.ClientSize = new System.Drawing.Size(1020, 593);
+            this.Controls.Add(this.RBAmbos);
+            this.Controls.Add(this.RBContraseña);
+            this.Controls.Add(this.RBUsuario);
+            this.Controls.Add(this.btnlogoepsi);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.txtContraseña);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnConfirmar);
             this.Font = new System.Drawing.Font("Arial Black", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "ComplementoActualizar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -148,15 +168,15 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btnConfirmar;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnlogoepsi;
+        private System.Windows.Forms.RadioButton RBUsuario;
+        private System.Windows.Forms.RadioButton RBContraseña;
+        private System.Windows.Forms.RadioButton RBAmbos;
     }
 }
