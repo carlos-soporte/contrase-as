@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace banco_contraseñas
 {
-    public partial class ComplementActualizar : Form
+    public partial class FrmComplemento : Form
     {
-        public ComplementActualizar()
+        public FrmComplemento()
         {
             InitializeComponent();
+        }
+
+        private void ComplementActualizar_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

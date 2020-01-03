@@ -1,6 +1,6 @@
 ﻿namespace banco_contraseñas
 {
-    partial class ComplementActualizar
+    partial class FrmComplemento
     {
         /// <summary>
         /// Required designer variable.
@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(1198, 659);
             this.Name = "ComplementActualizar";
             this.Text = "ComplementActualizar";
+            this.Load += new System.EventHandler(this.ComplementActualizar_Load);
             this.ResumeLayout(false);
 
         }
