@@ -16,10 +16,5 @@ namespace banco_contraseñas
         {
             InitializeComponent();
         }
-
-        private void btnModificar_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -79,14 +79,13 @@
             // btnModificar
             // 
             this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnModificar.Location = new System.Drawing.Point(595, 213);
+            this.btnModificar.Location = new System.Drawing.Point(604, 213);
             this.btnModificar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(274, 34);
-            this.btnModificar.TabIndex = 39;
+            this.btnModificar.Size = new System.Drawing.Size(276, 34);
+            this.btnModificar.TabIndex = 38;
             this.btnModificar.Text = "MODIFICAR";
             this.btnModificar.UseVisualStyleBackColor = true;
-            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // FrmActualizar
             // 
