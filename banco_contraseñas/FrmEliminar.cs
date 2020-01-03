@@ -19,7 +19,27 @@ namespace banco_contraseñas
 
         private void FrmEliminar_Load(object sender, EventArgs e)
         {
+            if (id_registro>0)
+            {
+                btnEliminar.Enabled = true;
+            }
+            
+        }
 
+        private void BtnEliminar_Click(object sender, EventArgs e)
+        {
+            if (id_registro > 0)
+            {
+                string query = "exec eliminar_banco " + id_registro;
+                bd.consultar(query);
+                MessageBox.Show("datos eliminados correctamente");
+                dataGridView1.DataSource = llenarGv().Tables[0];
+            }
+            else
+            {
+                MessageBox.Show("Error, ninguna entidad seleccionada");
+            }
+            
         }
     }
 }
