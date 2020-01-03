@@ -12,14 +12,25 @@ namespace banco_contraseñas
 {
     public partial class ComplementoActualizar : Form
     {
-        public ComplementoActualizar()
+
+        
+        public  String[] banco = new String[5];
+        public ComplementoActualizar(String [] banco1)
         {
             InitializeComponent();
+            banco = banco1;
+
         }
+
+       
 
         private void ComplementoActualizar_Load(object sender, EventArgs e)
         {
-
+            txtId.Text =banco[0];
+            txtEntidad.Text = banco[1];
+            txtDescripcion.Text = banco[2];
+            txtUsuario.Text = banco[3];
+            txtContraseña.Text = banco[4];
         }
 
        
@@ -54,6 +65,12 @@ namespace banco_contraseñas
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new lista_opciones().Show();
         }
     }
 }

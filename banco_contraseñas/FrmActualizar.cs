@@ -12,6 +12,10 @@ namespace banco_contraseñas
 {
     public partial class FrmActualizar : Form
     {
+
+        
+        public String[] banco = new String[5];
+
         public FrmActualizar()
         {
             InitializeComponent();
@@ -86,7 +90,26 @@ namespace banco_contraseñas
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new ComplementoActualizar().Show();
+            new ComplementoActualizar(banco).Show();
+
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                banco[0] = (String)dataGridView1.Rows[e.RowIndex].Cells["id_registro"].Value;
+                banco[1] = (String)dataGridView1.Rows[e.RowIndex].Cells[1].Value;
+                banco[2] = (String)dataGridView1.Rows[e.RowIndex].Cells[2].Value;
+                banco[3] = (String)dataGridView1.Rows[e.RowIndex].Cells[3].Value;
+                banco[4] = (String)dataGridView1.Rows[e.RowIndex].Cells[4].Value;
+
+            }
+            catch (Exception)
+            {
+
+              
+            }
         }
     }
 }
