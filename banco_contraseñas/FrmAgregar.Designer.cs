@@ -112,7 +112,6 @@
             // 
             this.txtUsuario.Location = new System.Drawing.Point(211, 190);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(6);
-            this.txtUsuario.MaxLength = 25;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(327, 29);
             this.txtUsuario.TabIndex = 22;
@@ -121,7 +120,6 @@
             // 
             this.txtClave.Location = new System.Drawing.Point(211, 254);
             this.txtClave.Margin = new System.Windows.Forms.Padding(6);
-            this.txtClave.MaxLength = 20;
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(327, 29);
             this.txtClave.TabIndex = 23;
@@ -130,7 +128,6 @@
             // 
             this.txtDescripcion.Location = new System.Drawing.Point(211, 128);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(6);
-            this.txtDescripcion.MaxLength = 40;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(327, 29);
             this.txtDescripcion.TabIndex = 24;
@@ -139,7 +136,6 @@
             // 
             this.txtEntidad.Location = new System.Drawing.Point(211, 64);
             this.txtEntidad.Margin = new System.Windows.Forms.Padding(6);
-            this.txtEntidad.MaxLength = 20;
             this.txtEntidad.Name = "txtEntidad";
             this.txtEntidad.Size = new System.Drawing.Size(327, 29);
             this.txtEntidad.TabIndex = 25;
