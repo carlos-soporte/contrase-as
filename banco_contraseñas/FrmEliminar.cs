@@ -97,5 +97,34 @@ namespace banco_contraseñas
         {
             dataGridView1.DataSource = llenarGv().Tables[0];
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            string query2;
+            if (id_registro > 0)
+            {
+                DialogResult respuesta = MessageBox.Show("¿seguro que desea salir?", "SALIR", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+
+                if (respuesta == DialogResult.Yes)
+                {
+                    query2 = "exec eliminar_banco " + id_registro;
+                    bd.consultar(query2);
+                    MessageBox.Show("datos eliminados correctamente");
+                    dataGridView1.DataSource = llenarGv().Tables[0];
+                }
+                else if (respuesta == DialogResult.No)
+                {
+                }
+                else if (respuesta == DialogResult.Cancel)
+                {
+                }
+                
+                dataGridView1.DataSource = llenarGv().Tables[0];
+            }
+            else
+            {
+                MessageBox.Show("Error, ninguna entidad seleccionada");
+            }
+        }
     }
 }

@@ -37,7 +37,7 @@ namespace banco_contraseñas
 
         private void btn_eliminar_Click(object sender, EventArgs e)
         {
-            //new FrmDelete().Show();
+            new FrmEliminar().Show();
             this.Hide();
         }
     }
