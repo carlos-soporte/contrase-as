@@ -12,6 +12,7 @@ namespace banco_contraseñas
 {
     public partial class FrmConsultar : Form
     {
+        public int id_registro;
         public FrmConsultar()
         {
             InitializeComponent();
@@ -32,6 +33,7 @@ namespace banco_contraseñas
 
         public DataSet llenarGv()
         {
+            
             DataSet ds;
 
             string query = "EXEC listar_banco";
@@ -84,6 +86,20 @@ namespace banco_contraseñas
             }
             MessageBox.Show("usted ha salido de la aplicacion");
             Application.Exit();
+        }
+
+        private void DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            try
+            {
+                id_registro = (int)dataGridView1.Rows[e.RowIndex].Cells[0].Value;
+            }
+            catch (Exception)
+            {
+
+            }
+            
         }
     }
 }
