@@ -65,12 +65,6 @@
     <Compile Include="FrmConsultar.Designer.cs">
       <DependentUpon>FrmConsultar.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmEliminar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmEliminar.Designer.cs">
-      <DependentUpon>FrmEliminar.cs</DependentUpon>
-    </Compile>
     <Compile Include="lista_opciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,9 +87,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmConsultar.resx">
       <DependentUpon>FrmConsultar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmEliminar.resx">
-      <DependentUpon>FrmEliminar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lista_opciones.resx">
       <DependentUpon>lista_opciones.cs</DependentUpon>
