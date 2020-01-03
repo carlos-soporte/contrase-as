@@ -116,7 +116,7 @@
             this.label1.Location = new System.Drawing.Point(27, 213);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 23);
+            this.label1.Size = new System.Drawing.Size(92, 29);
             this.label1.TabIndex = 28;
             this.label1.Text = "Entidad:";
             // 
@@ -125,7 +125,7 @@
             this.txt_filtrar.Location = new System.Drawing.Point(104, 213);
             this.txt_filtrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_filtrar.Name = "txt_filtrar";
-            this.txt_filtrar.Size = new System.Drawing.Size(205, 29);
+            this.txt_filtrar.Size = new System.Drawing.Size(205, 35);
             this.txt_filtrar.TabIndex = 29;
             // 
             // btn_buscar
@@ -179,10 +179,10 @@
             // 
             // FrmConsultar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(891, 610);
+            this.ClientSize = new System.Drawing.Size(1067, 575);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btn_actualizar);
             this.Controls.Add(this.btn_buscar);
