@@ -53,12 +53,6 @@
     <Compile Include="ComplementoActualizar.Designer.cs">
       <DependentUpon>ComplementoActualizar.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmActualizar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmActualizar.Designer.cs">
-      <DependentUpon>FrmActualizar.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmAgregar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,9 +87,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ComplementoActualizar.resx">
       <DependentUpon>ComplementoActualizar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmActualizar.resx">
-      <DependentUpon>FrmActualizar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAgregar.resx">
       <DependentUpon>FrmAgregar.cs</DependentUpon>
@@ -146,6 +137,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado p1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado p2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENTRAR 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENTRAR 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar 1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrar 4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrar 5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario p1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
