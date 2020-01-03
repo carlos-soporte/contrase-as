@@ -65,18 +65,6 @@
     <Compile Include="FrmConsultar.Designer.cs">
       <DependentUpon>FrmConsultar.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmDelete.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmDelete.Designer.cs">
-      <DependentUpon>FrmDelete.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmUpdate.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmUpdate.Designer.cs">
-      <DependentUpon>FrmUpdate.cs</DependentUpon>
-    </Compile>
     <Compile Include="lista_opciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,12 +87,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmConsultar.resx">
       <DependentUpon>FrmConsultar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmDelete.resx">
-      <DependentUpon>FrmDelete.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmUpdate.resx">
-      <DependentUpon>FrmUpdate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lista_opciones.resx">
       <DependentUpon>lista_opciones.cs</DependentUpon>
