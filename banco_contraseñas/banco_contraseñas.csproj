@@ -47,11 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bd.cs" />
-    <Compile Include="FrmActualizar.cs">
+    <Compile Include="ComplementoActualizar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmActualizar.Designer.cs">
-      <DependentUpon>FrmActualizar.cs</DependentUpon>
+    <Compile Include="ComplementoActualizar.Designer.cs">
+      <DependentUpon>ComplementoActualizar.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmAgregar.cs">
       <SubType>Form</SubType>
@@ -85,8 +85,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmActualizar.resx">
-      <DependentUpon>FrmActualizar.cs</DependentUpon>
+    <EmbeddedResource Include="ComplementoActualizar.resx">
+      <DependentUpon>ComplementoActualizar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAgregar.resx">
       <DependentUpon>FrmAgregar.cs</DependentUpon>
