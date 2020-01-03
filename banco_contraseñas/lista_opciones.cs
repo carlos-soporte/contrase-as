@@ -31,7 +31,7 @@ namespace banco_contraseñas
 
         private void btn_actualizar_Click(object sender, EventArgs e)
         {
-            new FrmActualizar().Show();
+            //new FrmActualizar().Show();
             this.Hide();
         }
 
