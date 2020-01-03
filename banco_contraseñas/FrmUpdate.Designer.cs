@@ -1,6 +1,6 @@
 ﻿namespace banco_contraseñas
 {
-    partial class FrmEliminar
+    partial class FrmUpdate
     {
         /// <summary>
         /// Required designer variable.
@@ -33,7 +33,7 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // dataGridViewTextBoxColumn1
@@ -76,27 +76,26 @@
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
             this.dataGridViewTextBoxColumn5.Width = 121;
             // 
-            // btnEliminar
+            // btnActualizar
             // 
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnEliminar.Location = new System.Drawing.Point(605, 213);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(274, 34);
-            this.btnEliminar.TabIndex = 38;
-            this.btnEliminar.Text = "ELIMINAR";
-            this.btnEliminar.UseVisualStyleBackColor = true;
-            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnActualizar.Location = new System.Drawing.Point(604, 213);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(275, 34);
+            this.btnActualizar.TabIndex = 38;
+            this.btnActualizar.Text = "ACTUALIZAR";
+            this.btnActualizar.UseVisualStyleBackColor = true;
             // 
-            // FrmEliminar
+            // FrmUpdate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(891, 610);
-            this.Controls.Add(this.btnEliminar);
-            this.Name = "FrmEliminar";
-            this.Text = "FrmEliminar";
-            this.Controls.SetChildIndex(this.btnEliminar, 0);
+            this.Controls.Add(this.btnActualizar);
+            this.Name = "FrmUpdate";
+            this.Text = "FrmUpdate";
+            this.Controls.SetChildIndex(this.btnActualizar, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,6 +108,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnActualizar;
     }
 }
