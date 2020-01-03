@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bd.cs" />
+    <Compile Include="FrmComplemento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmComplemento.Designer.cs">
+      <DependentUpon>FrmComplemento.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmActualizar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmComplemento.resx">
+      <DependentUpon>FrmComplemento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmActualizar.resx">
       <DependentUpon>FrmActualizar.cs</DependentUpon>
     </EmbeddedResource>
