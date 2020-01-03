@@ -54,14 +54,25 @@ namespace banco_contraseñas
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnSalir_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("ud ha salido de la aplicacion");
-            Dispose();
+            DialogResult respuesta=MessageBox.Show("¿Seguro que dese salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (respuesta == DialogResult.Yes)
+            {
+                MessageBox.Show("usted ha salido de la aplicacion");
+                Application.Exit();
+            }
+            else if (respuesta == DialogResult.No)
+            {
+            }
+            else if (respuesta == DialogResult.Cancel)
+            {
+            }
             
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnMenu_Click(object sender, EventArgs e)
         {
             new lista_opciones().Show();
             this.Hide();

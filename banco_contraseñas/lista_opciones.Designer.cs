@@ -41,10 +41,10 @@
             // btn_consultar
             // 
             this.btn_consultar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_consultar.Location = new System.Drawing.Point(204, 206);
-            this.btn_consultar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_consultar.Location = new System.Drawing.Point(170, 197);
+            this.btn_consultar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_consultar.Name = "btn_consultar";
-            this.btn_consultar.Size = new System.Drawing.Size(146, 35);
+            this.btn_consultar.Size = new System.Drawing.Size(122, 34);
             this.btn_consultar.TabIndex = 19;
             this.btn_consultar.Text = "CONSULTAR";
             this.btn_consultar.UseVisualStyleBackColor = true;
@@ -53,10 +53,10 @@
             // btn_actualizar
             // 
             this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_actualizar.Location = new System.Drawing.Point(204, 249);
-            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_actualizar.Location = new System.Drawing.Point(170, 239);
+            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_actualizar.Name = "btn_actualizar";
-            this.btn_actualizar.Size = new System.Drawing.Size(146, 35);
+            this.btn_actualizar.Size = new System.Drawing.Size(122, 34);
             this.btn_actualizar.TabIndex = 20;
             this.btn_actualizar.Text = "ACTUALIZAR";
             this.btn_actualizar.UseVisualStyleBackColor = true;
@@ -65,10 +65,10 @@
             // btn_agregar
             // 
             this.btn_agregar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_agregar.Location = new System.Drawing.Point(204, 292);
-            this.btn_agregar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_agregar.Location = new System.Drawing.Point(170, 280);
+            this.btn_agregar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_agregar.Name = "btn_agregar";
-            this.btn_agregar.Size = new System.Drawing.Size(146, 35);
+            this.btn_agregar.Size = new System.Drawing.Size(122, 34);
             this.btn_agregar.TabIndex = 21;
             this.btn_agregar.Text = "AGREGAR";
             this.btn_agregar.UseVisualStyleBackColor = true;
@@ -77,10 +77,10 @@
             // btn_eliminar
             // 
             this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_eliminar.Location = new System.Drawing.Point(204, 335);
-            this.btn_eliminar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_eliminar.Location = new System.Drawing.Point(170, 321);
+            this.btn_eliminar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_eliminar.Name = "btn_eliminar";
-            this.btn_eliminar.Size = new System.Drawing.Size(146, 35);
+            this.btn_eliminar.Size = new System.Drawing.Size(122, 34);
             this.btn_eliminar.TabIndex = 22;
             this.btn_eliminar.Text = "ELIMINAR";
             this.btn_eliminar.UseVisualStyleBackColor = true;
@@ -90,10 +90,10 @@
             // 
             this.button1.BackColor = System.Drawing.Color.LightBlue;
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(11, 23);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(9, 22);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(348, 72);
+            this.button1.Size = new System.Drawing.Size(290, 69);
             this.button1.TabIndex = 23;
             this.button1.Text = "BANCO DE CONTRASEÑAS EPSI ";
             this.button1.UseVisualStyleBackColor = false;
@@ -102,10 +102,10 @@
             // 
             this.button2.BackColor = System.Drawing.Color.LightBlue;
             this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(103, 139);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Location = new System.Drawing.Point(86, 133);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(348, 59);
+            this.button2.Size = new System.Drawing.Size(290, 57);
             this.button2.TabIndex = 24;
             this.button2.Text = "MENÚ PRINCIPAL";
             this.button2.UseVisualStyleBackColor = false;
@@ -115,19 +115,19 @@
             this.btnlogoepsi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlogoepsi.BackgroundImage")));
             this.btnlogoepsi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnlogoepsi.Enabled = false;
-            this.btnlogoepsi.Location = new System.Drawing.Point(365, -2);
+            this.btnlogoepsi.Location = new System.Drawing.Point(304, -2);
             this.btnlogoepsi.Margin = new System.Windows.Forms.Padding(2);
             this.btnlogoepsi.Name = "btnlogoepsi";
-            this.btnlogoepsi.Size = new System.Drawing.Size(196, 123);
+            this.btnlogoepsi.Size = new System.Drawing.Size(163, 118);
             this.btnlogoepsi.TabIndex = 11;
             this.btnlogoepsi.UseVisualStyleBackColor = true;
             // 
             // lista_opciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(560, 399);
+            this.ClientSize = new System.Drawing.Size(467, 382);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_eliminar);
@@ -135,11 +135,11 @@
             this.Controls.Add(this.btn_actualizar);
             this.Controls.Add(this.btn_consultar);
             this.Controls.Add(this.btnlogoepsi);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6);
+            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.MaximizeBox = false;
             this.Name = "lista_opciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

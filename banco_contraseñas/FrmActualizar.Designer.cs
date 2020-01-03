@@ -33,74 +33,55 @@
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnActualizar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "id_registro";
             this.dataGridViewTextBoxColumn1.HeaderText = "id_registro";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 168;
+            this.dataGridViewTextBoxColumn1.Width = 117;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.DataPropertyName = "entidad";
             this.dataGridViewTextBoxColumn2.HeaderText = "entidad";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 182;
+            this.dataGridViewTextBoxColumn2.Width = 120;
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "descripcion";
             this.dataGridViewTextBoxColumn3.HeaderText = "descripcion";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Width = 437;
+            this.dataGridViewTextBoxColumn3.Width = 283;
             // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.DataPropertyName = "usuario";
             this.dataGridViewTextBoxColumn4.HeaderText = "usuario";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
-            this.dataGridViewTextBoxColumn4.Width = 184;
+            this.dataGridViewTextBoxColumn4.Width = 124;
             // 
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.DataPropertyName = "contraseña";
             this.dataGridViewTextBoxColumn5.HeaderText = "contraseña";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Width = 170;
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Location = new System.Drawing.Point(867, 222);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(137, 34);
-            this.btnActualizar.TabIndex = 33;
-            this.btnActualizar.Text = "EDITAR";
-            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.dataGridViewTextBoxColumn5.Width = 121;
             // 
             // FrmActualizar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1500, 816);
-            this.Controls.Add(this.btnActualizar);
-            this.Margin = new System.Windows.Forms.Padding(11, 11, 11, 11);
+            this.ClientSize = new System.Drawing.Size(891, 610);
             this.Name = "FrmActualizar";
-            this.Text = "FrmAcutalizar";
-            this.Load += new System.EventHandler(this.FrmAcutalizar_Load);
-            this.Controls.SetChildIndex(this.btnActualizar, 0);
+            this.Text = "FrmActualizar";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -113,6 +94,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.Button btnActualizar;
     }
 }

@@ -16,11 +16,5 @@ namespace banco_contraseñas
         {
             InitializeComponent();
         }
-
-        private void FrmAcutalizar_Load(object sender, EventArgs e)
-        {
-           
-            
-        }
     }
 }
