@@ -48,19 +48,20 @@
             this.button1.BackColor = System.Drawing.Color.LightBlue;
             this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(317, 45);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(348, 66);
             this.button1.TabIndex = 24;
             this.button1.Text = "BANCO DE CONTRASEÑAS EPSI ";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightBlue;
             this.button2.Enabled = false;
             this.button2.Location = new System.Drawing.Point(132, 137);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(238, 48);
             this.button2.TabIndex = 25;
@@ -72,7 +73,7 @@
             this.btn_menu.BackColor = System.Drawing.Color.Gold;
             this.btn_menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_menu.Location = new System.Drawing.Point(-2, -2);
-            this.btn_menu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_menu.Margin = new System.Windows.Forms.Padding(4);
             this.btn_menu.Name = "btn_menu";
             this.btn_menu.Size = new System.Drawing.Size(280, 32);
             this.btn_menu.TabIndex = 26;
@@ -116,7 +117,7 @@
             this.label1.Location = new System.Drawing.Point(32, 204);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 22);
+            this.label1.Size = new System.Drawing.Size(109, 29);
             this.label1.TabIndex = 28;
             this.label1.Text = "Entidad:";
             // 
@@ -125,14 +126,14 @@
             this.txt_filtrar.Location = new System.Drawing.Point(125, 204);
             this.txt_filtrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_filtrar.Name = "txt_filtrar";
-            this.txt_filtrar.Size = new System.Drawing.Size(245, 29);
+            this.txt_filtrar.Size = new System.Drawing.Size(245, 35);
             this.txt_filtrar.TabIndex = 29;
             // 
             // btn_buscar
             // 
             this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_buscar.Location = new System.Drawing.Point(392, 202);
-            this.btn_buscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_buscar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(146, 33);
             this.btn_buscar.TabIndex = 30;
@@ -144,7 +145,7 @@
             // 
             this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_actualizar.Location = new System.Drawing.Point(560, 204);
-            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_actualizar.Name = "btn_actualizar";
             this.btn_actualizar.Size = new System.Drawing.Size(146, 33);
             this.btn_actualizar.TabIndex = 31;
@@ -157,7 +158,7 @@
             this.btnSalir.BackColor = System.Drawing.Color.Gold;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.Location = new System.Drawing.Point(286, -2);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(119, 32);
             this.btnSalir.TabIndex = 32;
@@ -179,7 +180,7 @@
             // 
             // FrmConsultar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(1030, 617);
@@ -196,7 +197,7 @@
             this.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FrmConsultar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

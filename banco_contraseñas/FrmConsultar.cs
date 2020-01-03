@@ -101,5 +101,10 @@ namespace banco_contraseñas
             }
             
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
