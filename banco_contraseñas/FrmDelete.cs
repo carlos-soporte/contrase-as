@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace banco_contraseñas
 {
-    public partial class FrmActualizar : FrmConsultar
+    public partial class FrmDelete : FrmConsultar
     {
-        public FrmActualizar()
+        public FrmDelete()
         {
             InitializeComponent();
-        }
-
-        private void btnModificar_Click(object sender, EventArgs e)
-        {
-            new ComplementoActualizar().Show();
         }
     }
 }

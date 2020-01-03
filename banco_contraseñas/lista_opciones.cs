@@ -31,13 +31,13 @@ namespace banco_contraseñas
 
         private void btn_actualizar_Click(object sender, EventArgs e)
         {
-            new FrmActualizar().Show();
+            new FrmUpdate().Show();
             this.Hide();
         }
 
         private void btn_eliminar_Click(object sender, EventArgs e)
         {
-            new FrmEliminar().Show();
+            new FrmDelete().Show();
             this.Hide();
         }
     }
