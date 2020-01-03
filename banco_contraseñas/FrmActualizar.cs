@@ -19,7 +19,8 @@ namespace banco_contraseñas
 
         private void btn_menu_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            new lista_opciones().Show();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
