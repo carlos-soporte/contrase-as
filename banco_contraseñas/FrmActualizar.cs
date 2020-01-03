@@ -82,5 +82,11 @@ namespace banco_contraseñas
         {
             dataGridView1.DataSource = llenarGv().Tables[0];
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new ComplementoActualizar().Show();
+        }
     }
 }
