@@ -340,7 +340,7 @@
             this.MaximizeBox = false;
             this.Name = "ComplementoActualizar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ComplementoActualizar";
+            this.Text = "Expertos Profesionales en Servicios Sociales Integrales";
             this.Load += new System.EventHandler(this.ComplementoActualizar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

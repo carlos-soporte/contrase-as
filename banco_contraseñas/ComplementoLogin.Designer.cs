@@ -147,7 +147,7 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "ComplementoLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ComplementoLogin";
+            this.Text = "Expertos Profesionales en Servicios Sociales Integrales";
             this.Load += new System.EventHandler(this.ComplementoLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -309,7 +309,7 @@
             this.MaximizeBox = false;
             this.Name = "FrmAgregar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmAgregar";
+            this.Text = "Expertos Profesionales en Servicios Sociales Integrales";
             this.Load += new System.EventHandler(this.FrmAgregar_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
