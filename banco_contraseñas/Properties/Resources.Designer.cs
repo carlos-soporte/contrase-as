@@ -153,6 +153,16 @@ namespace banco_contraseñas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap buscar1 {
+            get {
+                object obj = ResourceManager.GetObject("buscar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap buscar2 {
             get {
                 object obj = ResourceManager.GetObject("buscar2", resourceCulture);
@@ -363,6 +373,16 @@ namespace banco_contraseñas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap eliminar2 {
+            get {
+                object obj = ResourceManager.GetObject("eliminar2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap entidad3 {
             get {
                 object obj = ResourceManager.GetObject("entidad3", resourceCulture);
@@ -506,6 +526,16 @@ namespace banco_contraseñas.Properties {
         internal static System.Drawing.Bitmap guardar_4 {
             get {
                 object obj = ResourceManager.GetObject("guardar 4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap guardar6 {
+            get {
+                object obj = ResourceManager.GetObject("guardar6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -763,6 +793,66 @@ namespace banco_contraseñas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap modificar1 {
+            get {
+                object obj = ResourceManager.GetObject("modificar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap modificar11 {
+            get {
+                object obj = ResourceManager.GetObject("modificar11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap modificar2 {
+            get {
+                object obj = ResourceManager.GetObject("modificar2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap modificar3 {
+            get {
+                object obj = ResourceManager.GetObject("modificar3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap modificar4 {
+            get {
+                object obj = ResourceManager.GetObject("modificar4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap modificar5 {
+            get {
+                object obj = ResourceManager.GetObject("modificar5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap P1 {
             get {
                 object obj = ResourceManager.GetObject("P1", resourceCulture);
@@ -876,6 +966,26 @@ namespace banco_contraseñas.Properties {
         internal static System.Drawing.Bitmap p19 {
             get {
                 object obj = ResourceManager.GetObject("p19", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p191 {
+            get {
+                object obj = ResourceManager.GetObject("p191", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p192 {
+            get {
+                object obj = ResourceManager.GetObject("p192", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

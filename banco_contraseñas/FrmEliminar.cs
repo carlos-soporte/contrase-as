@@ -125,5 +125,15 @@ namespace banco_contraseñas
                 MessageBox.Show("Error, ninguna entidad seleccionada");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_filtrar_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
