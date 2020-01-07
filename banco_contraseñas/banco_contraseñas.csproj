@@ -53,6 +53,12 @@
     <Compile Include="ComplementoActualizar.Designer.cs">
       <DependentUpon>ComplementoActualizar.cs</DependentUpon>
     </Compile>
+    <Compile Include="ComplementoLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplementoLogin.Designer.cs">
+      <DependentUpon>ComplementoLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmAgregar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ComplementoActualizar.resx">
       <DependentUpon>ComplementoActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplementoLogin.resx">
+      <DependentUpon>ComplementoLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAgregar.resx">
       <DependentUpon>FrmAgregar.cs</DependentUpon>
