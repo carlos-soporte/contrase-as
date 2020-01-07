@@ -783,6 +783,26 @@ namespace banco_contraseñas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menu_41 {
+            get {
+                object obj = ResourceManager.GetObject("menu 41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_42 {
+            get {
+                object obj = ResourceManager.GetObject("menu 42", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menu1 {
             get {
                 object obj = ResourceManager.GetObject("menu1", resourceCulture);
@@ -936,6 +956,16 @@ namespace banco_contraseñas.Properties {
         internal static System.Drawing.Bitmap p16 {
             get {
                 object obj = ResourceManager.GetObject("p16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap p161 {
+            get {
+                object obj = ResourceManager.GetObject("p161", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

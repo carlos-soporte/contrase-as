@@ -28,5 +28,10 @@ namespace banco_contraseñas
             this.Hide();
             new login().Show();
         }
+
+        private void ComplementoLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
