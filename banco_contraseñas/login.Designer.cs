@@ -162,8 +162,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(428, 393);
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::banco_contraseñas.Properties.Resources.p17;
+            this.ClientSize = new System.Drawing.Size(435, 434);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);

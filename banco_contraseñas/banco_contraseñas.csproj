@@ -177,5 +177,188 @@
   <ItemGroup>
     <None Include="Resources\cerrar.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MENU 1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUARDAR.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MENU 11.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SALIR F.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar 2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guradar 3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar 4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu 3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir 3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESCRIPCION 2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESCRICION.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_png-011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_png-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_png-03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_png-041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_png-051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_png-06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_png-07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P21.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P6.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P31.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P61.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P7.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p8.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p10.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p11.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p12.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p121.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intento usuario 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p13.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p14.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acac.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candado2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entidad5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entidad4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entidad3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entidad6.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESCRICION1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOME 31.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOME 32.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acac1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guadar5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guradar 4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESCRIPCION 3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESCRICION4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENTIDAD7.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENTIDAD8.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESCRIPCION 31.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESCRIPCION 5JPG.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESCRICION11.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p15.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu 4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p16.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p17.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p18.JPG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

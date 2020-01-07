@@ -77,5 +77,20 @@ namespace banco_contraseñas
             new lista_opciones().Show();
             this.Hide();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmAgregar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
