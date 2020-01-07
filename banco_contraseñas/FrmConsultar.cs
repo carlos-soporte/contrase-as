@@ -84,8 +84,7 @@ namespace banco_contraseñas
             else if (respuesta == DialogResult.Cancel)
             {
             }
-            MessageBox.Show("usted ha salido de la aplicacion");
-            Application.Exit();
+           
         }
 
         private void DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)

@@ -51,8 +51,7 @@ namespace banco_contraseñas
             else if (respuesta == DialogResult.Cancel)
             {
             }
-            MessageBox.Show("usted ha salido de la aplicacion");
-            Application.Exit();
+            
         }
 
         private void btn_actualizar_Click(object sender, EventArgs e)

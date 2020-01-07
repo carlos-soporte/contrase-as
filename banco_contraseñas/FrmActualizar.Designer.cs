@@ -72,6 +72,7 @@
             // 
             this.txt_filtrar.Location = new System.Drawing.Point(160, 183);
             this.txt_filtrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txt_filtrar.MaxLength = 20;
             this.txt_filtrar.Name = "txt_filtrar";
             this.txt_filtrar.Size = new System.Drawing.Size(205, 29);
             this.txt_filtrar.TabIndex = 36;

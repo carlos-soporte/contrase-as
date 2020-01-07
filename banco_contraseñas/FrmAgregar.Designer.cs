@@ -52,6 +52,7 @@
             this.txtUsuario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.Location = new System.Drawing.Point(166, 197);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(6);
+            this.txtUsuario.MaxLength = 25;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(173, 26);
             this.txtUsuario.TabIndex = 22;
@@ -61,6 +62,7 @@
             this.txtClave.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtClave.Location = new System.Drawing.Point(166, 245);
             this.txtClave.Margin = new System.Windows.Forms.Padding(6);
+            this.txtClave.MaxLength = 20;
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(173, 26);
             this.txtClave.TabIndex = 23;
@@ -70,6 +72,7 @@
             this.txtDescripcion.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescripcion.Location = new System.Drawing.Point(166, 146);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(6);
+            this.txtDescripcion.MaxLength = 40;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(173, 26);
             this.txtDescripcion.TabIndex = 24;
@@ -79,6 +82,7 @@
             this.txtEntidad.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEntidad.Location = new System.Drawing.Point(166, 94);
             this.txtEntidad.Margin = new System.Windows.Forms.Padding(6);
+            this.txtEntidad.MaxLength = 20;
             this.txtEntidad.Name = "txtEntidad";
             this.txtEntidad.Size = new System.Drawing.Size(173, 26);
             this.txtEntidad.TabIndex = 25;
