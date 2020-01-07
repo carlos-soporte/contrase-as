@@ -72,16 +72,18 @@
             // 
             this.txtUsuario.Enabled = false;
             this.txtUsuario.Location = new System.Drawing.Point(236, 355);
+            this.txtUsuario.MaxLength = 25;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(337, 40);
+            this.txtUsuario.Size = new System.Drawing.Size(337, 33);
             this.txtUsuario.TabIndex = 5;
             // 
             // txtContraseña
             // 
             this.txtContraseña.Enabled = false;
             this.txtContraseña.Location = new System.Drawing.Point(236, 423);
+            this.txtContraseña.MaxLength = 20;
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(337, 40);
+            this.txtContraseña.Size = new System.Drawing.Size(337, 33);
             this.txtContraseña.TabIndex = 6;
             // 
             // label1
@@ -89,7 +91,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(74, 362);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 33);
+            this.label1.Size = new System.Drawing.Size(122, 27);
             this.label1.TabIndex = 7;
             this.label1.Text = "USUARIO :";
             // 
@@ -98,7 +100,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 430);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(218, 33);
+            this.label2.Size = new System.Drawing.Size(174, 27);
             this.label2.TabIndex = 8;
             this.label2.Text = "CONTRASEÑA :";
             // 
@@ -107,7 +109,7 @@
             this.RBUsuario.AutoSize = true;
             this.RBUsuario.Location = new System.Drawing.Point(12, 12);
             this.RBUsuario.Name = "RBUsuario";
-            this.RBUsuario.Size = new System.Drawing.Size(159, 37);
+            this.RBUsuario.Size = new System.Drawing.Size(128, 31);
             this.RBUsuario.TabIndex = 15;
             this.RBUsuario.TabStop = true;
             this.RBUsuario.Text = "USUARIO";
@@ -119,7 +121,7 @@
             this.RBContraseña.AutoSize = true;
             this.RBContraseña.Location = new System.Drawing.Point(177, 12);
             this.RBContraseña.Name = "RBContraseña";
-            this.RBContraseña.Size = new System.Drawing.Size(223, 37);
+            this.RBContraseña.Size = new System.Drawing.Size(180, 31);
             this.RBContraseña.TabIndex = 16;
             this.RBContraseña.TabStop = true;
             this.RBContraseña.Text = "CONTRASEÑA";
@@ -131,7 +133,7 @@
             this.RBAmbos.AutoSize = true;
             this.RBAmbos.Location = new System.Drawing.Point(406, 12);
             this.RBAmbos.Name = "RBAmbos";
-            this.RBAmbos.Size = new System.Drawing.Size(134, 37);
+            this.RBAmbos.Size = new System.Drawing.Size(108, 31);
             this.RBAmbos.TabIndex = 17;
             this.RBAmbos.TabStop = true;
             this.RBAmbos.Text = "AMBOS";
@@ -140,7 +142,6 @@
             // 
             // btnlogoepsi
             // 
-            this.btnlogoepsi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlogoepsi.BackgroundImage")));
             this.btnlogoepsi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnlogoepsi.Enabled = false;
             this.btnlogoepsi.Location = new System.Drawing.Point(701, 12);
@@ -154,7 +155,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 296);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(216, 33);
+            this.label3.Size = new System.Drawing.Size(172, 27);
             this.label3.TabIndex = 18;
             this.label3.Text = "DESCRIPCION :";
             // 
@@ -163,7 +164,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(78, 227);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 33);
+            this.label4.Size = new System.Drawing.Size(119, 27);
             this.label4.TabIndex = 19;
             this.label4.Text = "ENTIDAD :";
             // 
@@ -172,7 +173,7 @@
             this.txtDescripcion.Enabled = false;
             this.txtDescripcion.Location = new System.Drawing.Point(236, 289);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(337, 40);
+            this.txtDescripcion.Size = new System.Drawing.Size(337, 33);
             this.txtDescripcion.TabIndex = 20;
             // 
             // txtEntidad
@@ -180,7 +181,7 @@
             this.txtEntidad.Enabled = false;
             this.txtEntidad.Location = new System.Drawing.Point(236, 227);
             this.txtEntidad.Name = "txtEntidad";
-            this.txtEntidad.Size = new System.Drawing.Size(337, 40);
+            this.txtEntidad.Size = new System.Drawing.Size(337, 33);
             this.txtEntidad.TabIndex = 21;
             // 
             // label5
@@ -188,7 +189,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(169, 171);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 33);
+            this.label5.Size = new System.Drawing.Size(46, 27);
             this.label5.TabIndex = 22;
             this.label5.Text = "ID :";
             // 
@@ -197,7 +198,7 @@
             this.txtId.Enabled = false;
             this.txtId.Location = new System.Drawing.Point(236, 164);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(337, 40);
+            this.txtId.Size = new System.Drawing.Size(337, 33);
             this.txtId.TabIndex = 23;
             // 
             // button1
@@ -212,7 +213,7 @@
             // 
             // ComplementoActualizar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1020, 593);
             this.Controls.Add(this.button1);

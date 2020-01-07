@@ -46,12 +46,12 @@
             this.txt_usuario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_usuario.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.txt_usuario.Location = new System.Drawing.Point(152, 201);
+            this.txt_usuario.MaxLength = 25;
             this.txt_usuario.Multiline = true;
             this.txt_usuario.Name = "txt_usuario";
             this.txt_usuario.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txt_usuario.Size = new System.Drawing.Size(155, 30);
             this.txt_usuario.TabIndex = 13;
-            this.txt_usuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_usuario.TextChanged += new System.EventHandler(this.txt_usuario_TextChanged);
             // 
             // txt_contraseña
@@ -61,12 +61,12 @@
             this.txt_contraseña.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_contraseña.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.txt_contraseña.Location = new System.Drawing.Point(152, 237);
+            this.txt_contraseña.MaxLength = 15;
             this.txt_contraseña.Multiline = true;
             this.txt_contraseña.Name = "txt_contraseña";
             this.txt_contraseña.PasswordChar = '*';
             this.txt_contraseña.Size = new System.Drawing.Size(155, 29);
             this.txt_contraseña.TabIndex = 14;
-            this.txt_contraseña.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button2
             // 
