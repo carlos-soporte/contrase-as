@@ -79,23 +79,23 @@
             // txtUsuario
             // 
             this.txtUsuario.Enabled = false;
-            this.txtUsuario.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.Color.DimGray;
-            this.txtUsuario.Location = new System.Drawing.Point(193, 243);
+            this.txtUsuario.Location = new System.Drawing.Point(188, 249);
             this.txtUsuario.MaxLength = 25;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(457, 29);
+            this.txtUsuario.Size = new System.Drawing.Size(457, 26);
             this.txtUsuario.TabIndex = 5;
             // 
             // txtContraseña
             // 
             this.txtContraseña.Enabled = false;
-            this.txtContraseña.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.ForeColor = System.Drawing.Color.DimGray;
-            this.txtContraseña.Location = new System.Drawing.Point(193, 287);
+            this.txtContraseña.Location = new System.Drawing.Point(188, 293);
             this.txtContraseña.MaxLength = 20;
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(457, 29);
+            this.txtContraseña.Size = new System.Drawing.Size(457, 26);
             this.txtContraseña.TabIndex = 6;
             // 
             // label1
@@ -198,21 +198,21 @@
             // txtDescripcion
             // 
             this.txtDescripcion.Enabled = false;
-            this.txtDescripcion.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescripcion.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescripcion.ForeColor = System.Drawing.Color.DimGray;
-            this.txtDescripcion.Location = new System.Drawing.Point(193, 202);
+            this.txtDescripcion.Location = new System.Drawing.Point(188, 208);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(457, 29);
+            this.txtDescripcion.Size = new System.Drawing.Size(457, 26);
             this.txtDescripcion.TabIndex = 20;
             // 
             // txtEntidad
             // 
             this.txtEntidad.Enabled = false;
-            this.txtEntidad.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEntidad.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEntidad.ForeColor = System.Drawing.Color.DimGray;
-            this.txtEntidad.Location = new System.Drawing.Point(193, 158);
+            this.txtEntidad.Location = new System.Drawing.Point(188, 164);
             this.txtEntidad.Name = "txtEntidad";
-            this.txtEntidad.Size = new System.Drawing.Size(457, 29);
+            this.txtEntidad.Size = new System.Drawing.Size(457, 26);
             this.txtEntidad.TabIndex = 21;
             // 
             // label5
@@ -231,11 +231,11 @@
             // txtId
             // 
             this.txtId.Enabled = false;
-            this.txtId.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtId.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtId.ForeColor = System.Drawing.Color.DimGray;
-            this.txtId.Location = new System.Drawing.Point(193, 114);
+            this.txtId.Location = new System.Drawing.Point(188, 120);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(457, 29);
+            this.txtId.Size = new System.Drawing.Size(457, 26);
             this.txtId.TabIndex = 23;
             // 
             // button1
