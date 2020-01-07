@@ -82,6 +82,11 @@ namespace banco_contraseñas
             txt_filtrar.Text = "";
         }
 
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         private void FrmActualizar_Load(object sender, EventArgs e)
         {
             dataGridView1.DataSource = llenarGv().Tables[0];

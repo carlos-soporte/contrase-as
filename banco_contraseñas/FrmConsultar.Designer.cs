@@ -111,7 +111,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 211);
+            this.label1.Location = new System.Drawing.Point(33, 212);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 23);
@@ -120,10 +120,11 @@
             // 
             // txt_filtrar
             // 
-            this.txt_filtrar.Location = new System.Drawing.Point(125, 204);
+            this.txt_filtrar.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_filtrar.Location = new System.Drawing.Point(110, 204);
             this.txt_filtrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_filtrar.Name = "txt_filtrar";
-            this.txt_filtrar.Size = new System.Drawing.Size(245, 29);
+            this.txt_filtrar.Size = new System.Drawing.Size(245, 39);
             this.txt_filtrar.TabIndex = 29;
             // 
             // btn_buscar
@@ -132,10 +133,10 @@
             this.btn_buscar.Cursor = System.Windows.Forms.Cursors.Default;
             this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_buscar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_buscar.Location = new System.Drawing.Point(392, 202);
+            this.btn_buscar.Location = new System.Drawing.Point(404, 204);
             this.btn_buscar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(126, 33);
+            this.btn_buscar.Size = new System.Drawing.Size(118, 38);
             this.btn_buscar.TabIndex = 30;
             this.btn_buscar.Text = "   Buscar";
             this.btn_buscar.UseVisualStyleBackColor = false;
@@ -146,10 +147,10 @@
             this.btn_actualizar.BackColor = System.Drawing.Color.White;
             this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_actualizar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_actualizar.Location = new System.Drawing.Point(536, 201);
+            this.btn_actualizar.Location = new System.Drawing.Point(536, 204);
             this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_actualizar.Name = "btn_actualizar";
-            this.btn_actualizar.Size = new System.Drawing.Size(146, 33);
+            this.btn_actualizar.Size = new System.Drawing.Size(137, 38);
             this.btn_actualizar.TabIndex = 31;
             this.btn_actualizar.Text = "   Refrescar";
             this.btn_actualizar.UseVisualStyleBackColor = false;
@@ -181,7 +182,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.Transparent;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(403, 204);
+            this.button3.Location = new System.Drawing.Point(415, 208);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(22, 29);
             this.button3.TabIndex = 38;
@@ -200,7 +201,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.Transparent;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(546, 204);
+            this.button4.Location = new System.Drawing.Point(545, 209);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(27, 27);
             this.button4.TabIndex = 39;
