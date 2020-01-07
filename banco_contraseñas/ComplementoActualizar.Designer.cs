@@ -38,7 +38,6 @@
             this.RBUsuario = new System.Windows.Forms.RadioButton();
             this.RBContraseña = new System.Windows.Forms.RadioButton();
             this.RBAmbos = new System.Windows.Forms.RadioButton();
-            this.btnlogoepsi = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
@@ -50,16 +49,17 @@
             // 
             // btnConfirmar
             // 
-            this.btnConfirmar.Location = new System.Drawing.Point(12, 534);
+            this.btnConfirmar.BackgroundImage = global::banco_contraseñas.Properties.Resources.guardar_4;
+            this.btnConfirmar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnConfirmar.Location = new System.Drawing.Point(35, 388);
             this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(194, 47);
+            this.btnConfirmar.Size = new System.Drawing.Size(124, 41);
             this.btnConfirmar.TabIndex = 3;
-            this.btnConfirmar.Text = "CONFIRMAR";
             this.btnConfirmar.UseVisualStyleBackColor = true;
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(212, 534);
+            this.btnSalir.Location = new System.Drawing.Point(325, 385);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(127, 47);
             this.btnSalir.TabIndex = 4;
@@ -69,42 +69,47 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(236, 355);
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.txtUsuario.Location = new System.Drawing.Point(129, 267);
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(337, 40);
+            this.txtUsuario.Size = new System.Drawing.Size(337, 20);
             this.txtUsuario.TabIndex = 5;
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(236, 423);
+            this.txtContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.txtContraseña.Location = new System.Drawing.Point(129, 325);
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(337, 40);
+            this.txtContraseña.Size = new System.Drawing.Size(337, 20);
             this.txtContraseña.TabIndex = 6;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(74, 362);
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(21, 280);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 33);
+            this.label1.Size = new System.Drawing.Size(76, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "USUARIO :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 430);
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(21, 332);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(218, 33);
+            this.label2.Size = new System.Drawing.Size(107, 20);
             this.label2.TabIndex = 8;
             this.label2.Text = "CONTRASEÑA :";
             // 
             // RBUsuario
             // 
             this.RBUsuario.AutoSize = true;
+            this.RBUsuario.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RBUsuario.Location = new System.Drawing.Point(12, 12);
             this.RBUsuario.Name = "RBUsuario";
-            this.RBUsuario.Size = new System.Drawing.Size(159, 37);
+            this.RBUsuario.Size = new System.Drawing.Size(98, 27);
             this.RBUsuario.TabIndex = 15;
             this.RBUsuario.TabStop = true;
             this.RBUsuario.Text = "USUARIO";
@@ -114,9 +119,10 @@
             // RBContraseña
             // 
             this.RBContraseña.AutoSize = true;
+            this.RBContraseña.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RBContraseña.Location = new System.Drawing.Point(177, 12);
             this.RBContraseña.Name = "RBContraseña";
-            this.RBContraseña.Size = new System.Drawing.Size(223, 37);
+            this.RBContraseña.Size = new System.Drawing.Size(136, 27);
             this.RBContraseña.TabIndex = 16;
             this.RBContraseña.TabStop = true;
             this.RBContraseña.Text = "CONTRASEÑA";
@@ -126,77 +132,73 @@
             // RBAmbos
             // 
             this.RBAmbos.AutoSize = true;
+            this.RBAmbos.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RBAmbos.Location = new System.Drawing.Point(406, 12);
             this.RBAmbos.Name = "RBAmbos";
-            this.RBAmbos.Size = new System.Drawing.Size(134, 37);
+            this.RBAmbos.Size = new System.Drawing.Size(85, 27);
             this.RBAmbos.TabIndex = 17;
             this.RBAmbos.TabStop = true;
             this.RBAmbos.Text = "AMBOS";
             this.RBAmbos.UseVisualStyleBackColor = true;
             this.RBAmbos.CheckedChanged += new System.EventHandler(this.RBAmbos_CheckedChanged);
             // 
-            // btnlogoepsi
-            // 
-            this.btnlogoepsi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlogoepsi.BackgroundImage")));
-            this.btnlogoepsi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnlogoepsi.Enabled = false;
-            this.btnlogoepsi.Location = new System.Drawing.Point(701, 12);
-            this.btnlogoepsi.Name = "btnlogoepsi";
-            this.btnlogoepsi.Size = new System.Drawing.Size(307, 351);
-            this.btnlogoepsi.TabIndex = 14;
-            this.btnlogoepsi.UseVisualStyleBackColor = true;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 296);
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(21, 231);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(216, 33);
+            this.label3.Size = new System.Drawing.Size(107, 20);
             this.label3.TabIndex = 18;
             this.label3.Text = "DESCRIPCION :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(78, 227);
+            this.label4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(21, 166);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 33);
+            this.label4.Size = new System.Drawing.Size(74, 20);
             this.label4.TabIndex = 19;
             this.label4.Text = "ENTIDAD :";
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(236, 289);
+            this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.txtDescripcion.Location = new System.Drawing.Point(129, 218);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(337, 40);
+            this.txtDescripcion.Size = new System.Drawing.Size(337, 20);
             this.txtDescripcion.TabIndex = 20;
             // 
             // txtEntidad
             // 
-            this.txtEntidad.Location = new System.Drawing.Point(236, 227);
+            this.txtEntidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.txtEntidad.Location = new System.Drawing.Point(129, 166);
             this.txtEntidad.Name = "txtEntidad";
-            this.txtEntidad.Size = new System.Drawing.Size(337, 40);
+            this.txtEntidad.Size = new System.Drawing.Size(337, 20);
             this.txtEntidad.TabIndex = 21;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(169, 171);
+            this.label5.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(21, 110);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(59, 33);
+            this.label5.Size = new System.Drawing.Size(30, 20);
             this.label5.TabIndex = 22;
             this.label5.Text = "ID :";
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(236, 164);
+            this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.txtId.Location = new System.Drawing.Point(154, 110);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(337, 40);
+            this.txtId.Size = new System.Drawing.Size(337, 20);
             this.txtId.TabIndex = 23;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(345, 534);
+            this.button1.Location = new System.Drawing.Point(516, 385);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 47);
             this.button1.TabIndex = 24;
@@ -206,9 +208,10 @@
             // 
             // ComplementoActualizar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 32F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1020, 593);
+            this.BackgroundImage = global::banco_contraseñas.Properties.Resources.p15;
+            this.ClientSize = new System.Drawing.Size(868, 444);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label5);
@@ -219,7 +222,6 @@
             this.Controls.Add(this.RBAmbos);
             this.Controls.Add(this.RBContraseña);
             this.Controls.Add(this.RBUsuario);
-            this.Controls.Add(this.btnlogoepsi);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtContraseña);
@@ -246,7 +248,6 @@
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnlogoepsi;
         private System.Windows.Forms.RadioButton RBUsuario;
         private System.Windows.Forms.RadioButton RBContraseña;
         private System.Windows.Forms.RadioButton RBAmbos;

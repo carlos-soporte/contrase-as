@@ -72,5 +72,10 @@ namespace banco_contraseñas
             this.Hide();
             new lista_opciones().Show();
         }
+
+        private void btnlogoepsi_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

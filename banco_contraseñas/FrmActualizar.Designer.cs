@@ -64,7 +64,7 @@
             this.label1.Location = new System.Drawing.Point(47, 189);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 29);
+            this.label1.Size = new System.Drawing.Size(88, 22);
             this.label1.TabIndex = 34;
             this.label1.Text = "Entidad:";
             // 
@@ -73,7 +73,7 @@
             this.txt_filtrar.Location = new System.Drawing.Point(160, 183);
             this.txt_filtrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_filtrar.Name = "txt_filtrar";
-            this.txt_filtrar.Size = new System.Drawing.Size(205, 34);
+            this.txt_filtrar.Size = new System.Drawing.Size(205, 29);
             this.txt_filtrar.TabIndex = 36;
             // 
             // btn_buscar
@@ -119,7 +119,7 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 256);
+            this.dataGridView1.Location = new System.Drawing.Point(1, 256);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
@@ -169,7 +169,7 @@
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(844, 58);
+            this.button2.Location = new System.Drawing.Point(721, 20);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(167, 193);
@@ -208,7 +208,7 @@
             // 
             // FrmActualizar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 27F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(1032, 613);
