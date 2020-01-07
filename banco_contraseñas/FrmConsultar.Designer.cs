@@ -31,7 +31,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmConsultar));
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.btn_menu = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,43 +38,39 @@
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.btnlogoepsi = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightBlue;
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(317, 45);
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.button1.Location = new System.Drawing.Point(277, 108);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(348, 66);
+            this.button1.Size = new System.Drawing.Size(344, 51);
             this.button1.TabIndex = 24;
-            this.button1.Text = "BANCO DE CONTRASEÑAS EPSI ";
+            this.button1.Text = "CONSULTA BANCO DE PASE\'S";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.LightBlue;
-            this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(132, 137);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(238, 48);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "CONSULTA";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // btn_menu
             // 
-            this.btn_menu.BackColor = System.Drawing.Color.Gold;
-            this.btn_menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_menu.Location = new System.Drawing.Point(-2, -2);
+            this.btn_menu.BackColor = System.Drawing.Color.White;
+            this.btn_menu.Font = new System.Drawing.Font("Arial Narrow", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_menu.Location = new System.Drawing.Point(-2, 13);
             this.btn_menu.Margin = new System.Windows.Forms.Padding(4);
             this.btn_menu.Name = "btn_menu";
-            this.btn_menu.Size = new System.Drawing.Size(280, 32);
+            this.btn_menu.Size = new System.Drawing.Size(271, 49);
             this.btn_menu.TabIndex = 26;
             this.btn_menu.Text = "Volver al menú principal";
             this.btn_menu.UseVisualStyleBackColor = false;
@@ -100,24 +95,26 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 258);
+            this.dataGridView1.Location = new System.Drawing.Point(37, 256);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(1000, 330);
+            this.dataGridView1.Size = new System.Drawing.Size(849, 250);
             this.dataGridView1.TabIndex = 37;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(32, 204);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(33, 211);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 29);
+            this.label1.Size = new System.Drawing.Size(73, 23);
             this.label1.TabIndex = 28;
             this.label1.Text = "Entidad:";
             // 
@@ -126,64 +123,138 @@
             this.txt_filtrar.Location = new System.Drawing.Point(125, 204);
             this.txt_filtrar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txt_filtrar.Name = "txt_filtrar";
-            this.txt_filtrar.Size = new System.Drawing.Size(245, 35);
+            this.txt_filtrar.Size = new System.Drawing.Size(245, 29);
             this.txt_filtrar.TabIndex = 29;
             // 
             // btn_buscar
             // 
-            this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_buscar.BackColor = System.Drawing.Color.White;
+            this.btn_buscar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_buscar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buscar.Location = new System.Drawing.Point(392, 202);
             this.btn_buscar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(146, 33);
+            this.btn_buscar.Size = new System.Drawing.Size(126, 33);
             this.btn_buscar.TabIndex = 30;
-            this.btn_buscar.Text = "BUSCAR";
-            this.btn_buscar.UseVisualStyleBackColor = true;
+            this.btn_buscar.Text = "   Buscar";
+            this.btn_buscar.UseVisualStyleBackColor = false;
             this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
             // 
             // btn_actualizar
             // 
-            this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_actualizar.Location = new System.Drawing.Point(560, 204);
+            this.btn_actualizar.BackColor = System.Drawing.Color.White;
+            this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_actualizar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_actualizar.Location = new System.Drawing.Point(536, 201);
             this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4);
             this.btn_actualizar.Name = "btn_actualizar";
             this.btn_actualizar.Size = new System.Drawing.Size(146, 33);
             this.btn_actualizar.TabIndex = 31;
-            this.btn_actualizar.Text = "REFRESCAR";
-            this.btn_actualizar.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Text = "   Refrescar";
+            this.btn_actualizar.UseVisualStyleBackColor = false;
             this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
             // 
             // btnSalir
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.Gold;
-            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(286, -2);
+            this.btnSalir.BackColor = System.Drawing.Color.White;
+            this.btnSalir.Font = new System.Drawing.Font("Arial Narrow", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(286, 13);
             this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(119, 32);
+            this.btnSalir.Size = new System.Drawing.Size(104, 49);
             this.btnSalir.TabIndex = 32;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
-            // btnlogoepsi
+            // button3
             // 
-            this.btnlogoepsi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlogoepsi.BackgroundImage")));
-            this.btnlogoepsi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnlogoepsi.Enabled = false;
-            this.btnlogoepsi.Location = new System.Drawing.Point(860, 11);
-            this.btnlogoepsi.Margin = new System.Windows.Forms.Padding(2);
-            this.btnlogoepsi.Name = "btnlogoepsi";
-            this.btnlogoepsi.Size = new System.Drawing.Size(196, 113);
-            this.btnlogoepsi.TabIndex = 12;
-            this.btnlogoepsi.UseVisualStyleBackColor = true;
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::banco_contraseñas.Properties.Resources.buscar4;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.Color.Transparent;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(403, 204);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(22, 29);
+            this.button3.TabIndex = 38;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.BackgroundImage = global::banco_contraseñas.Properties.Resources.refrescar6;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.Color.Transparent;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(546, 204);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(27, 27);
+            this.button4.TabIndex = 39;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.BackgroundImage = global::banco_contraseñas.Properties.Resources.salir_2;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.ForeColor = System.Drawing.Color.Transparent;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(298, 25);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(19, 25);
+            this.button5.TabIndex = 40;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+            this.button6.BackgroundImage = global::banco_contraseñas.Properties.Resources.HOME_32;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.ForeColor = System.Drawing.Color.Transparent;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(12, 21);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(26, 29);
+            this.button6.TabIndex = 41;
+            this.button6.UseVisualStyleBackColor = false;
             // 
             // FrmConsultar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(1030, 617);
+            this.BackgroundImage = global::banco_contraseñas.Properties.Resources.p19;
+            this.ClientSize = new System.Drawing.Size(943, 536);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btn_actualizar);
             this.Controls.Add(this.btn_buscar);
@@ -191,9 +262,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_menu);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnlogoepsi);
             this.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -210,10 +279,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnlogoepsi;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btn_menu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_filtrar;
@@ -221,5 +287,9 @@
         private System.Windows.Forms.Button btn_actualizar;
         public System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }

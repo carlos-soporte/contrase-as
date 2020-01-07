@@ -233,7 +233,7 @@
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(166, 359);
+            this.button2.Location = new System.Drawing.Point(156, 359);
             this.button2.Margin = new System.Windows.Forms.Padding(7);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 40);

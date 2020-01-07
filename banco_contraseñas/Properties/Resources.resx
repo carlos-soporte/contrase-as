@@ -130,11 +130,20 @@
   <data name="DESCRIPCION 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DESCRIPCION 31.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="agregar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agregar.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo_png-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_png-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="entidad3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\entidad3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refrescar5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refrescar5.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\candado1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refrescar6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refrescar6.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="entidad4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\entidad4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,14 +151,17 @@
   <data name="menu 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu 4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="candado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\candado1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="refrescar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refrescar2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DESCRICION1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DESCRICION1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="usuario3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\usuario3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo_png-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo_png-03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GUARDAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GUARDAR.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="acac1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\acac1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,11 +175,8 @@
   <data name="Logo_png-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_png-01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="actualizar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\actualizar1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ENTIDAD7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ENTIDAD7.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DESCRIPCION 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DESCRIPCION 3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CONSULTAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CONSULTAR.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,9 +187,6 @@
   <data name="candado2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\candado2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="candado p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\candado p2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Logo_png-07" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_png-07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -190,8 +196,8 @@
   <data name="guadar5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\guadar5.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DESCRICION1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DESCRICION1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="refrescar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refrescar3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo_png-041" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_png-041.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,11 +223,11 @@
   <data name="entidad5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\entidad5.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="entrar 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\entrar 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="entidad6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\entidad6.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buscar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buscar4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo_png-05" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_png-05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,9 +241,6 @@
   <data name="P2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\P2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="candado p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\candado p1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="actualizar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\actualizar3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -249,6 +252,12 @@
   </data>
   <data name="Logo_png-011" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_png-011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agregar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agregar.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DESCRIPCION 5JPG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DESCRIPCION 5JPG.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="guardar 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\guardar 4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,14 +274,29 @@
   <data name="candado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\candado.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="refrescar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refrescar4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SALIR F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SALIR F.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MENU 12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MENU 12.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Intento usuario 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Intento usuario 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="p13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p13.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MENU 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MENU 11.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOME 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOME 3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="P31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\P31.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p18.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -295,8 +319,11 @@
   <data name="Logo_png-06" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_png-06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CONSULTAR1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CONSULTAR1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="refrescar21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refrescar21.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOME 32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOME 32.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="acac" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\acac.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -307,17 +334,14 @@
   <data name="usuario p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\usuario p1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="eliminar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eliminar.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="actualizar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actualizar1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="P7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\P7.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GUARDAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GUARDAR.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Agregar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Agregar1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="entrar 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\entrar 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -334,20 +358,26 @@
   <data name="ENTRAR 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENTRAR 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo_png-08" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo_png-08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eliminar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eliminar.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HOME 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HOME 3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Intento usuario 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intento usuario 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candado p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\candado p2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p19.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="p16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\p16.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="p13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\p13.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="salir 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salir 3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SALIR F" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SALIR F.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ENTIDAD7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ENTIDAD7.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="guradar 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\guradar 4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,14 +385,20 @@
   <data name="ENTIDAD8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENTIDAD8.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="buscar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buscar2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logo_png-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_png-02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="P61" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\P61.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DESCRIPCION 5JPG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DESCRIPCION 5JPG.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="candado p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\candado p1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo_png-08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_png-08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="P3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\P3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -370,17 +406,14 @@
   <data name="P6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\P6.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HOME 32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HOME 32.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Agregar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Agregar1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DESCRICION11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DESCRICION11.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="P5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\P5.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DESCRIPCION 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DESCRIPCION 3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo_png-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_png-04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -391,16 +424,16 @@
   <data name="guradar 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\guradar 3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="salir 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\salir 3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="refrescar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refrescar1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="actualizar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\actualizar4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="P31" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\P31.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CONSULTAR1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CONSULTAR1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="p18" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\p18.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="salir 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salir 2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -225,7 +225,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
             this.BackgroundImage = global::banco_contraseñas.Properties.Resources.menu_4;
-            this.ClientSize = new System.Drawing.Size(400, 361);
+            this.ClientSize = new System.Drawing.Size(400, 359);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);

@@ -360,5 +360,38 @@
   <ItemGroup>
     <None Include="Resources\p18.JPG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p19.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refrescar1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refrescar2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refrescar21.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refrescar3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refrescar4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refrescar5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refrescar6.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir 2.JPG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
