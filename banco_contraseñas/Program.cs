@@ -16,7 +16,7 @@ namespace banco_contraseñas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new lista_opciones());
+            Application.Run(new login());
         }
     }
 }
