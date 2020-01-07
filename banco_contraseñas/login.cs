@@ -41,10 +41,21 @@ namespace banco_contraseñas
 
                 if(txt_usuario.Text.Trim()==usuario  && txt_contraseña.Text.Trim() == contraseña)
                 {
+                    if (usuario == "gloria" && contraseña == "1234")
+                    {
+                        MessageBox.Show("datos ingresados correctamente");
+                        this.Hide();
+                        new ComplementoLogin().Show();
+                       
+                    }
+                    else
+                    {
+                        MessageBox.Show("¡Datos correctos, bienvenid@!");
+                        this.Hide();
+                        new lista_opciones().Show();
+                    }
                     
-                    MessageBox.Show("¡Datos correctos, bienvenid@!");
-                    this.Hide();
-                    new lista_opciones().Show();
+                   
                 }
 
             }

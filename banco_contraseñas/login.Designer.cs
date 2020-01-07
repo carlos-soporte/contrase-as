@@ -45,12 +45,11 @@
             this.txt_usuario.BackColor = System.Drawing.Color.White;
             this.txt_usuario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_usuario.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txt_usuario.Location = new System.Drawing.Point(152, 201);
+            this.txt_usuario.Location = new System.Drawing.Point(162, 197);
             this.txt_usuario.MaxLength = 25;
-            this.txt_usuario.Multiline = true;
             this.txt_usuario.Name = "txt_usuario";
             this.txt_usuario.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txt_usuario.Size = new System.Drawing.Size(155, 30);
+            this.txt_usuario.Size = new System.Drawing.Size(126, 30);
             this.txt_usuario.TabIndex = 13;
             this.txt_usuario.TextChanged += new System.EventHandler(this.txt_usuario_TextChanged);
             // 
@@ -60,12 +59,11 @@
             this.txt_contraseña.BackColor = System.Drawing.Color.White;
             this.txt_contraseña.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_contraseña.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txt_contraseña.Location = new System.Drawing.Point(152, 237);
+            this.txt_contraseña.Location = new System.Drawing.Point(162, 237);
             this.txt_contraseña.MaxLength = 15;
-            this.txt_contraseña.Multiline = true;
             this.txt_contraseña.Name = "txt_contraseña";
             this.txt_contraseña.PasswordChar = '*';
-            this.txt_contraseña.Size = new System.Drawing.Size(155, 29);
+            this.txt_contraseña.Size = new System.Drawing.Size(126, 30);
             this.txt_contraseña.TabIndex = 14;
             // 
             // button2
@@ -74,16 +72,17 @@
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button2.Enabled = false;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.Transparent;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(121, 237);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(36, 29);
+            this.button2.Size = new System.Drawing.Size(35, 26);
             this.button2.TabIndex = 20;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -94,17 +93,18 @@
             this.button1.BackgroundImage = global::banco_contraseñas.Properties.Resources.usuario_p1;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button1.Enabled = false;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.ImageKey = "(ninguno)";
-            this.button1.Location = new System.Drawing.Point(121, 201);
+            this.button1.Location = new System.Drawing.Point(121, 197);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(36, 30);
+            this.button1.Size = new System.Drawing.Size(35, 26);
             this.button1.TabIndex = 19;
             this.button1.Text = "    ";
             this.button1.UseVisualStyleBackColor = false;
@@ -160,7 +160,7 @@
             // 
             // login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::banco_contraseñas.Properties.Resources.p17;
