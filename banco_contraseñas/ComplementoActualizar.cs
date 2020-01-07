@@ -13,12 +13,17 @@ namespace banco_contraseñas
     public partial class ComplementoActualizar : Form
     {
 
-        
-        public  String[] banco = new String[5];
-        public ComplementoActualizar(String [] banco1)
+
+        public int id_registro;
+        public String entidad, descripcion, usuario, contraseña;
+        public ComplementoActualizar(int nid_registro,String nentidad,String ndescripcion,String nusuario,String ncontraseña)
         {
             InitializeComponent();
-            banco = banco1;
+            id_registro = nid_registro;
+            entidad = nentidad;
+            descripcion = ndescripcion;
+            usuario = nusuario;
+            contraseña = ncontraseña;
 
         }
 
@@ -26,11 +31,11 @@ namespace banco_contraseñas
 
         private void ComplementoActualizar_Load(object sender, EventArgs e)
         {
-            txtId.Text =banco[0];
-            txtEntidad.Text = banco[1];
-            txtDescripcion.Text = banco[2];
-            txtUsuario.Text = banco[3];
-            txtContraseña.Text = banco[4];
+            txtId.Text =id_registro.ToString();
+            txtEntidad.Text = entidad ;
+            txtDescripcion.Text = descripcion;
+            txtUsuario.Text = usuario;
+            txtContraseña.Text = contraseña;
         }
 
        
@@ -39,8 +44,9 @@ namespace banco_contraseñas
         {
             if (RBUsuario.Checked == true) 
             {
-                txtContraseña.Enabled = false;
                 txtUsuario.Enabled = true;
+                txtContraseña.Enabled = false;
+
             }
         }
 
@@ -48,15 +54,56 @@ namespace banco_contraseñas
         {
             if (RBContraseña.Checked == true)
             {
+               
                 txtUsuario.Enabled = false;
                 txtContraseña.Enabled = true;
             }
+        }
+
+        private void btnConfirmar_Click(object sender, EventArgs e)
+        {
+            String query;
+            if(txtUsuario.Text=="" || txtContraseña.Text=="") 
+            {
+                MessageBox.Show("campos vacios, verifique porfavor");
+                return;
+            }
+
+            if(RBUsuario.Checked==true && RBAmbos.Checked == false)
+            {
+                query = "exec editar_usuario " + id_registro + ",'" + txtUsuario.Text.Trim()+"'";
+                bd.consultar(query);
+                MessageBox.Show("el usuario ha sido actualizado correctamente");
+                this.Hide();
+                new FrmActualizar().Show();
+
+            }
+
+            else if (RBContraseña.Checked == true && RBAmbos.Checked == false)
+            {
+                query = "exec editar_contraseña " + id_registro + ",'" + txtContraseña.Text.Trim() + "'";
+                bd.consultar(query);
+                MessageBox.Show("la contraseña ha sido actualizada correctamente");
+                this.Hide();
+                new FrmActualizar().Show();
+            }
+            
+            else if (RBAmbos.Checked == true)
+            {
+                query = "exec editar_duo " + id_registro + ",'" + txtUsuario.Text.Trim() + "','" + txtContraseña.Text.Trim() + "'";
+                bd.consultar(query);
+                MessageBox.Show("usuario y contraseña actualizado correctamente");
+                this.Hide();
+                new FrmActualizar().Show();
+            }
+            
         }
 
         private void RBAmbos_CheckedChanged(object sender, EventArgs e)
         {
             if (RBAmbos.Checked == true)
             {
+                
                 txtUsuario.Enabled = true;
                 txtContraseña.Enabled = true;
             }

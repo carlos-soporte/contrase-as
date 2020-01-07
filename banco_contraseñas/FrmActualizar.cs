@@ -13,8 +13,9 @@ namespace banco_contraseñas
     public partial class FrmActualizar : Form
     {
 
-        
-        public String[] banco = new String[5];
+
+        public int id_registro;
+        public String entidad, descripcion, usuario, contraseña;
 
         public FrmActualizar()
         {
@@ -52,8 +53,7 @@ namespace banco_contraseñas
             else if (respuesta == DialogResult.Cancel)
             {
             }
-            MessageBox.Show("usted ha salido de la aplicacion");
-            Application.Exit();
+            
         }
 
         private void btn_buscar_Click(object sender, EventArgs e)
@@ -90,7 +90,8 @@ namespace banco_contraseñas
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new ComplementoActualizar(banco).Show();
+            new ComplementoActualizar(id_registro,entidad,descripcion,usuario,contraseña).Show();
+           
 
         }
 
@@ -98,11 +99,11 @@ namespace banco_contraseñas
         {
             try
             {
-                banco[0] = (String)dataGridView1.Rows[e.RowIndex].Cells["id_registro"].Value;
-                banco[1] = (String)dataGridView1.Rows[e.RowIndex].Cells[1].Value;
-                banco[2] = (String)dataGridView1.Rows[e.RowIndex].Cells[2].Value;
-                banco[3] = (String)dataGridView1.Rows[e.RowIndex].Cells[3].Value;
-                banco[4] = (String)dataGridView1.Rows[e.RowIndex].Cells[4].Value;
+                id_registro =(int)dataGridView1.Rows[e.RowIndex].Cells[0].Value;
+                entidad=(String) dataGridView1.Rows[e.RowIndex].Cells[1].Value;
+                descripcion = (String)dataGridView1.Rows[e.RowIndex].Cells[2].Value;
+                usuario= (String)dataGridView1.Rows[e.RowIndex].Cells[3].Value;
+                contraseña= (String)dataGridView1.Rows[e.RowIndex].Cells[4].Value;
 
             }
             catch (Exception)

@@ -56,6 +56,7 @@
             this.btnConfirmar.TabIndex = 3;
             this.btnConfirmar.Text = "CONFIRMAR";
             this.btnConfirmar.UseVisualStyleBackColor = true;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
             // 
             // btnSalir
             // 
@@ -69,6 +70,7 @@
             // 
             // txtUsuario
             // 
+            this.txtUsuario.Enabled = false;
             this.txtUsuario.Location = new System.Drawing.Point(236, 355);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(337, 40);
@@ -76,6 +78,7 @@
             // 
             // txtContraseña
             // 
+            this.txtContraseña.Enabled = false;
             this.txtContraseña.Location = new System.Drawing.Point(236, 423);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(337, 40);
@@ -166,6 +169,7 @@
             // 
             // txtDescripcion
             // 
+            this.txtDescripcion.Enabled = false;
             this.txtDescripcion.Location = new System.Drawing.Point(236, 289);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(337, 40);
@@ -173,6 +177,7 @@
             // 
             // txtEntidad
             // 
+            this.txtEntidad.Enabled = false;
             this.txtEntidad.Location = new System.Drawing.Point(236, 227);
             this.txtEntidad.Name = "txtEntidad";
             this.txtEntidad.Size = new System.Drawing.Size(337, 40);
@@ -189,6 +194,7 @@
             // 
             // txtId
             // 
+            this.txtId.Enabled = false;
             this.txtId.Location = new System.Drawing.Point(236, 164);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(337, 40);
@@ -200,7 +206,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 47);
             this.button1.TabIndex = 24;
-            this.button1.Text = "button1";
+            this.button1.Text = "MENU";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
