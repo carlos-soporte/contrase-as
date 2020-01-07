@@ -59,7 +59,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(65, 134);
+            this.label3.Location = new System.Drawing.Point(65, 132);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(227, 29);
             this.label3.TabIndex = 2;
@@ -77,6 +77,7 @@
             // txtNUsuario
             // 
             this.txtNUsuario.Location = new System.Drawing.Point(330, 129);
+            this.txtNUsuario.MaxLength = 25;
             this.txtNUsuario.Name = "txtNUsuario";
             this.txtNUsuario.Size = new System.Drawing.Size(176, 34);
             this.txtNUsuario.TabIndex = 4;
@@ -84,6 +85,7 @@
             // txtNContraseña
             // 
             this.txtNContraseña.Location = new System.Drawing.Point(330, 199);
+            this.txtNContraseña.MaxLength = 15;
             this.txtNContraseña.Name = "txtNContraseña";
             this.txtNContraseña.Size = new System.Drawing.Size(176, 34);
             this.txtNContraseña.TabIndex = 5;
@@ -113,7 +115,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "ComplementoLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ComplementoLogin";
