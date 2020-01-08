@@ -49,6 +49,13 @@ AS
 INSERT INTO habilitados(usuario,contraseña) VALUES (@usuario,@contraseña)
 GO
 
+CREATE PROCEDURE actualizar_habilitado
+@usuario VARCHAR(25),
+@contraseña VARCHAR(15)
+AS
+UPDATE habilitados SET usuario=@usuario,contraseña=@contraseña WHERE usuario='gloria'
+GO
+
 --se hace un procedimiento almacenado para añadir una entidad completa al banco de contraseñas
 CREATE PROCEDURE insertar_banco
 @entidad VARCHAR(20),
@@ -115,9 +122,10 @@ GO
 
 -----------------------------------REGISTROS-----------------------------------------------
 --se hacen dos registros de usuarios habilitados despues de ejecutado el procedimiento
-EXEC insertar_habilitado 'carlos','1234'
-EXEC insertar_habilitado 'duban','4321'
+EXEC insertar_habilitado 'gloria','1234'
 GO
+
+SELECT * FROM habilitados
 
 --se hacen 15 registros con fines practicos.
 EXEC insertar_banco 'bancolombia','retiro de dinero','te_amamos','chao1234' 
