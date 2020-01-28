@@ -12,7 +12,7 @@ namespace banco_contraseñas
     {
         public static DataSet consultar(string query)
         {
-            SqlConnection connection = new SqlConnection("server=.; database=banco_contraseña ; integrated security = true");
+            SqlConnection connection = new SqlConnection("server=192.168.1.181; database=banco_contraseña ; user id=duban_adm; password=3ps1-sqlbd.*");
             connection.Open();
 
             DataSet ds = new DataSet();

@@ -46,6 +46,10 @@ namespace banco_contraseñas
                 
                 bd.consultar(query);
                 MessageBox.Show("datos ingresados correctamente");
+                txtDescripcion.Text = "";
+                txtUsuario.Text = "";
+                txtEntidad.Text = "";
+                txtClave.Text = "";
             }
             catch (Exception)
             {

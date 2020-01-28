@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "banco_contraseñas", "banco_contraseñas.csproj", "{82B624E0-6145-4316-8610-4F20C7D8D1BD}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Pase_install", "..\Pase_install\Pase_install.vdproj", "{4F5E73A2-77C2-4653-84A7-DBF9C7FADF0D}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "..\Setup\Setup.vdproj", "{F3AC64C6-6514-41DE-A65A-3A42B2170223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{82B624E0-6145-4316-8610-4F20C7D8D1BD}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{82B624E0-6145-4316-8610-4F20C7D8D1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82B624E0-6145-4316-8610-4F20C7D8D1BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F5E73A2-77C2-4653-84A7-DBF9C7FADF0D}.Debug|Any CPU.ActiveCfg = Debug
-		{4F5E73A2-77C2-4653-84A7-DBF9C7FADF0D}.Release|Any CPU.ActiveCfg = Release
+		{F3AC64C6-6514-41DE-A65A-3A42B2170223}.Debug|Any CPU.ActiveCfg = Debug
+		{F3AC64C6-6514-41DE-A65A-3A42B2170223}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
